@@ -1,0 +1,892 @@
+[2025-02-16 07:59:27,154] {processor.py:153} INFO - Started process (PID=3799) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 07:59:27,154] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 07:59:27,154] {logging_mixin.py:115} INFO - [2025-02-16 07:59:27,154] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 07:59:27,159] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 07:59:27,225] {logging_mixin.py:115} INFO - [2025-02-16 07:59:27,225] {manager.py:508} INFO - Created Permission View: can read on DAG:Lead_scoring_training_pipeline
+[2025-02-16 07:59:27,241] {logging_mixin.py:115} INFO - [2025-02-16 07:59:27,241] {manager.py:508} INFO - Created Permission View: can edit on DAG:Lead_scoring_training_pipeline
+[2025-02-16 07:59:27,257] {logging_mixin.py:115} INFO - [2025-02-16 07:59:27,257] {manager.py:508} INFO - Created Permission View: can delete on DAG:Lead_scoring_training_pipeline
+[2025-02-16 07:59:27,257] {logging_mixin.py:115} INFO - [2025-02-16 07:59:27,257] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 07:59:27,264] {logging_mixin.py:115} INFO - [2025-02-16 07:59:27,263] {dag.py:2439} INFO - Creating ORM DAG for Lead_scoring_training_pipeline
+[2025-02-16 07:59:27,271] {logging_mixin.py:115} INFO - [2025-02-16 07:59:27,271] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 07:59:27,290] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.138 seconds
+[2025-02-16 08:00:12,604] {processor.py:153} INFO - Started process (PID=3875) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:00:12,606] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:00:12,606] {logging_mixin.py:115} INFO - [2025-02-16 08:00:12,606] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:00:12,618] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:00:12,636] {logging_mixin.py:115} INFO - [2025-02-16 08:00:12,636] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:00:12,656] {logging_mixin.py:115} INFO - [2025-02-16 08:00:12,656] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:00:12,696] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.097 seconds
+[2025-02-16 08:00:47,017] {processor.py:153} INFO - Started process (PID=3909) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:00:47,019] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:00:47,019] {logging_mixin.py:115} INFO - [2025-02-16 08:00:47,019] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:00:47,028] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:00:47,043] {logging_mixin.py:115} INFO - [2025-02-16 08:00:47,043] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:00:47,062] {logging_mixin.py:115} INFO - [2025-02-16 08:00:47,062] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:00:47,084] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.070 seconds
+[2025-02-16 08:01:18,565] {processor.py:153} INFO - Started process (PID=3940) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:01:18,567] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:01:18,567] {logging_mixin.py:115} INFO - [2025-02-16 08:01:18,567] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:01:18,576] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:01:18,592] {logging_mixin.py:115} INFO - [2025-02-16 08:01:18,592] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:01:18,611] {logging_mixin.py:115} INFO - [2025-02-16 08:01:18,611] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:01:18,633] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.071 seconds
+[2025-02-16 08:01:54,817] {processor.py:153} INFO - Started process (PID=3976) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:01:54,819] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:01:54,819] {logging_mixin.py:115} INFO - [2025-02-16 08:01:54,819] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:01:54,828] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:01:54,843] {logging_mixin.py:115} INFO - [2025-02-16 08:01:54,843] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:01:54,862] {logging_mixin.py:115} INFO - [2025-02-16 08:01:54,862] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:01:54,885] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.071 seconds
+[2025-02-16 08:02:30,766] {processor.py:153} INFO - Started process (PID=4013) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:02:30,767] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:02:30,768] {logging_mixin.py:115} INFO - [2025-02-16 08:02:30,768] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:02:30,776] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:02:30,792] {logging_mixin.py:115} INFO - [2025-02-16 08:02:30,791] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:02:30,811] {logging_mixin.py:115} INFO - [2025-02-16 08:02:30,811] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:02:30,833] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.071 seconds
+[2025-02-16 08:03:09,180] {processor.py:153} INFO - Started process (PID=4223) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:03:09,182] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:03:09,182] {logging_mixin.py:115} INFO - [2025-02-16 08:03:09,182] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:03:09,191] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:03:09,206] {logging_mixin.py:115} INFO - [2025-02-16 08:03:09,206] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:03:09,226] {logging_mixin.py:115} INFO - [2025-02-16 08:03:09,226] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:03:09,331] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.154 seconds
+[2025-02-16 08:03:45,449] {processor.py:153} INFO - Started process (PID=4258) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:03:45,450] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:03:45,451] {logging_mixin.py:115} INFO - [2025-02-16 08:03:45,451] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:03:45,459] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:03:45,475] {logging_mixin.py:115} INFO - [2025-02-16 08:03:45,475] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:03:45,494] {logging_mixin.py:115} INFO - [2025-02-16 08:03:45,494] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:03:45,516] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.071 seconds
+[2025-02-16 08:04:20,184] {processor.py:153} INFO - Started process (PID=4295) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:04:20,185] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:04:20,186] {logging_mixin.py:115} INFO - [2025-02-16 08:04:20,186] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:04:20,194] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:04:20,210] {logging_mixin.py:115} INFO - [2025-02-16 08:04:20,210] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:04:20,227] {logging_mixin.py:115} INFO - [2025-02-16 08:04:20,227] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:04:20,247] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.066 seconds
+[2025-02-16 08:04:54,269] {processor.py:153} INFO - Started process (PID=4329) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:04:54,270] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:04:54,270] {logging_mixin.py:115} INFO - [2025-02-16 08:04:54,270] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:04:54,279] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:04:54,294] {logging_mixin.py:115} INFO - [2025-02-16 08:04:54,294] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:04:54,314] {logging_mixin.py:115} INFO - [2025-02-16 08:04:54,313] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:04:54,336] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.070 seconds
+[2025-02-16 08:05:30,280] {processor.py:153} INFO - Started process (PID=4368) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:05:30,281] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:05:30,282] {logging_mixin.py:115} INFO - [2025-02-16 08:05:30,282] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:05:30,291] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:05:30,306] {logging_mixin.py:115} INFO - [2025-02-16 08:05:30,306] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:05:30,325] {logging_mixin.py:115} INFO - [2025-02-16 08:05:30,325] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:05:30,346] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.070 seconds
+[2025-02-16 08:13:38,410] {processor.py:153} INFO - Started process (PID=4994) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:13:38,412] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:13:38,413] {logging_mixin.py:115} INFO - [2025-02-16 08:13:38,413] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:13:38,418] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:13:38,446] {logging_mixin.py:115} INFO - [2025-02-16 08:13:38,446] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:13:38,450] {logging_mixin.py:115} INFO - [2025-02-16 08:13:38,450] {dag.py:2439} INFO - Creating ORM DAG for Lead_scoring_training_pipeline
+[2025-02-16 08:13:38,458] {logging_mixin.py:115} INFO - [2025-02-16 08:13:38,458] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:13:38,482] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.073 seconds
+[2025-02-16 08:14:17,216] {processor.py:153} INFO - Started process (PID=5234) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:14:17,218] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:14:17,218] {logging_mixin.py:115} INFO - [2025-02-16 08:14:17,218] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:14:17,227] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:14:17,241] {logging_mixin.py:115} INFO - [2025-02-16 08:14:17,241] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:14:17,261] {logging_mixin.py:115} INFO - [2025-02-16 08:14:17,261] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:14:17,281] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.068 seconds
+[2025-02-16 08:14:21,672] {processor.py:153} INFO - Started process (PID=5250) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:14:21,677] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:14:21,678] {logging_mixin.py:115} INFO - [2025-02-16 08:14:21,678] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:14:21,686] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:14:21,700] {logging_mixin.py:115} INFO - [2025-02-16 08:14:21,700] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:14:21,716] {logging_mixin.py:115} INFO - [2025-02-16 08:14:21,716] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:14:21,736] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.067 seconds
+[2025-02-16 08:14:54,052] {processor.py:153} INFO - Started process (PID=5316) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:14:54,054] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:14:54,055] {logging_mixin.py:115} INFO - [2025-02-16 08:14:54,054] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:14:54,063] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:14:54,078] {logging_mixin.py:115} INFO - [2025-02-16 08:14:54,078] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:14:54,096] {logging_mixin.py:115} INFO - [2025-02-16 08:14:54,096] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:14:54,116] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.068 seconds
+[2025-02-16 08:14:57,178] {processor.py:153} INFO - Started process (PID=5322) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:14:57,178] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:14:57,178] {logging_mixin.py:115} INFO - [2025-02-16 08:14:57,178] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:14:57,187] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:14:57,202] {logging_mixin.py:115} INFO - [2025-02-16 08:14:57,202] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:14:57,221] {logging_mixin.py:115} INFO - [2025-02-16 08:14:57,221] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:14:57,242] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.067 seconds
+[2025-02-16 08:15:26,513] {processor.py:153} INFO - Started process (PID=5381) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:15:26,514] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:15:26,514] {logging_mixin.py:115} INFO - [2025-02-16 08:15:26,514] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:15:26,522] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:15:26,536] {logging_mixin.py:115} INFO - [2025-02-16 08:15:26,535] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:15:26,550] {logging_mixin.py:115} INFO - [2025-02-16 08:15:26,550] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:15:26,570] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.060 seconds
+[2025-02-16 08:15:34,538] {processor.py:153} INFO - Started process (PID=5397) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:15:34,539] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:15:34,540] {logging_mixin.py:115} INFO - [2025-02-16 08:15:34,540] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:15:34,548] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:15:34,563] {logging_mixin.py:115} INFO - [2025-02-16 08:15:34,563] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:15:34,582] {logging_mixin.py:115} INFO - [2025-02-16 08:15:34,582] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:15:34,604] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.070 seconds
+[2025-02-16 08:16:04,044] {processor.py:153} INFO - Started process (PID=5456) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:16:04,045] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:16:04,045] {logging_mixin.py:115} INFO - [2025-02-16 08:16:04,045] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:16:04,054] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:16:04,069] {logging_mixin.py:115} INFO - [2025-02-16 08:16:04,069] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:16:04,088] {logging_mixin.py:115} INFO - [2025-02-16 08:16:04,088] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:16:04,110] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.069 seconds
+[2025-02-16 08:16:05,492] {processor.py:153} INFO - Started process (PID=5459) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:16:05,492] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:16:05,493] {logging_mixin.py:115} INFO - [2025-02-16 08:16:05,493] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:16:05,501] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:16:05,514] {logging_mixin.py:115} INFO - [2025-02-16 08:16:05,514] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:16:05,528] {logging_mixin.py:115} INFO - [2025-02-16 08:16:05,528] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:16:05,548] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.059 seconds
+[2025-02-16 08:16:38,259] {processor.py:153} INFO - Started process (PID=5523) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:16:38,261] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:16:38,262] {logging_mixin.py:115} INFO - [2025-02-16 08:16:38,262] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:16:38,270] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:16:38,284] {logging_mixin.py:115} INFO - [2025-02-16 08:16:38,284] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:16:38,303] {logging_mixin.py:115} INFO - [2025-02-16 08:16:38,303] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:16:38,324] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.068 seconds
+[2025-02-16 08:23:59,606] {processor.py:153} INFO - Started process (PID=6232) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:23:59,608] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:23:59,608] {logging_mixin.py:115} INFO - [2025-02-16 08:23:59,608] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:23:59,616] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:23:59,661] {logging_mixin.py:115} INFO - [2025-02-16 08:23:59,661] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:23:59,668] {logging_mixin.py:115} INFO - [2025-02-16 08:23:59,668] {dag.py:2439} INFO - Creating ORM DAG for Lead_scoring_training_pipeline
+[2025-02-16 08:23:59,680] {logging_mixin.py:115} INFO - [2025-02-16 08:23:59,680] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:23:59,713] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.109 seconds
+[2025-02-16 08:24:40,876] {processor.py:153} INFO - Started process (PID=6281) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:24:40,877] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:24:40,878] {logging_mixin.py:115} INFO - [2025-02-16 08:24:40,878] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:24:40,887] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:24:40,901] {logging_mixin.py:115} INFO - [2025-02-16 08:24:40,901] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:24:40,921] {logging_mixin.py:115} INFO - [2025-02-16 08:24:40,921] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:24:40,943] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.070 seconds
+[2025-02-16 08:25:19,085] {processor.py:153} INFO - Started process (PID=6483) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:25:19,086] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:25:19,087] {logging_mixin.py:115} INFO - [2025-02-16 08:25:19,087] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:25:19,096] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:25:19,111] {logging_mixin.py:115} INFO - [2025-02-16 08:25:19,110] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:25:19,130] {logging_mixin.py:115} INFO - [2025-02-16 08:25:19,130] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:25:19,152] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.070 seconds
+[2025-02-16 08:25:52,316] {processor.py:153} INFO - Started process (PID=6520) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:25:52,318] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:25:52,318] {logging_mixin.py:115} INFO - [2025-02-16 08:25:52,318] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:25:52,327] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:25:52,342] {logging_mixin.py:115} INFO - [2025-02-16 08:25:52,342] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:25:52,361] {logging_mixin.py:115} INFO - [2025-02-16 08:25:52,361] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:25:53,312] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.999 seconds
+[2025-02-16 08:26:29,677] {processor.py:153} INFO - Started process (PID=6565) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:26:29,679] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:26:29,679] {logging_mixin.py:115} INFO - [2025-02-16 08:26:29,679] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:26:29,687] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:26:29,701] {logging_mixin.py:115} INFO - [2025-02-16 08:26:29,701] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:26:29,717] {logging_mixin.py:115} INFO - [2025-02-16 08:26:29,717] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:26:29,737] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.063 seconds
+[2025-02-16 08:27:00,017] {processor.py:153} INFO - Started process (PID=6609) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:27:00,017] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:27:00,018] {logging_mixin.py:115} INFO - [2025-02-16 08:27:00,018] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:27:00,026] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:27:00,039] {logging_mixin.py:115} INFO - [2025-02-16 08:27:00,039] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:27:00,054] {logging_mixin.py:115} INFO - [2025-02-16 08:27:00,054] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:27:00,195] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.181 seconds
+[2025-02-16 08:29:53,433] {processor.py:153} INFO - Started process (PID=6822) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:29:53,434] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:29:53,434] {logging_mixin.py:115} INFO - [2025-02-16 08:29:53,434] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:29:53,439] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:29:53,468] {logging_mixin.py:115} INFO - [2025-02-16 08:29:53,468] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:29:53,472] {logging_mixin.py:115} INFO - [2025-02-16 08:29:53,472] {dag.py:2439} INFO - Creating ORM DAG for Lead_scoring_training_pipeline
+[2025-02-16 08:29:53,480] {logging_mixin.py:115} INFO - [2025-02-16 08:29:53,480] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:29:53,504] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.073 seconds
+[2025-02-16 08:30:32,382] {processor.py:153} INFO - Started process (PID=6867) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:30:32,383] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:30:32,384] {logging_mixin.py:115} INFO - [2025-02-16 08:30:32,384] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:30:32,392] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:30:32,405] {logging_mixin.py:115} INFO - [2025-02-16 08:30:32,405] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:30:32,420] {logging_mixin.py:115} INFO - [2025-02-16 08:30:32,420] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:30:32,440] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.062 seconds
+[2025-02-16 08:31:08,863] {processor.py:153} INFO - Started process (PID=6912) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:31:08,864] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:31:08,865] {logging_mixin.py:115} INFO - [2025-02-16 08:31:08,865] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:31:08,875] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:31:08,894] {logging_mixin.py:115} INFO - [2025-02-16 08:31:08,893] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:31:08,917] {logging_mixin.py:115} INFO - [2025-02-16 08:31:08,917] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:31:08,943] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.084 seconds
+[2025-02-16 08:31:47,296] {processor.py:153} INFO - Started process (PID=7122) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:31:47,298] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:31:47,298] {logging_mixin.py:115} INFO - [2025-02-16 08:31:47,298] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:31:47,306] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:31:47,320] {logging_mixin.py:115} INFO - [2025-02-16 08:31:47,320] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:31:47,335] {logging_mixin.py:115} INFO - [2025-02-16 08:31:47,335] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:31:47,355] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.061 seconds
+[2025-02-16 08:32:22,254] {processor.py:153} INFO - Started process (PID=7166) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:32:22,254] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:32:22,254] {logging_mixin.py:115} INFO - [2025-02-16 08:32:22,254] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:32:22,263] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:32:22,278] {logging_mixin.py:115} INFO - [2025-02-16 08:32:22,278] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:32:22,294] {logging_mixin.py:115} INFO - [2025-02-16 08:32:22,294] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:32:22,315] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.065 seconds
+[2025-02-16 08:32:54,621] {processor.py:153} INFO - Started process (PID=7206) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:32:54,623] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:32:54,623] {logging_mixin.py:115} INFO - [2025-02-16 08:32:54,623] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:32:54,631] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:32:54,645] {logging_mixin.py:115} INFO - [2025-02-16 08:32:54,645] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:32:54,661] {logging_mixin.py:115} INFO - [2025-02-16 08:32:54,661] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:32:54,681] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.063 seconds
+[2025-02-16 08:33:32,901] {processor.py:153} INFO - Started process (PID=7251) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:33:32,902] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:33:32,902] {logging_mixin.py:115} INFO - [2025-02-16 08:33:32,902] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:33:32,911] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:33:32,926] {logging_mixin.py:115} INFO - [2025-02-16 08:33:32,926] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:33:32,946] {logging_mixin.py:115} INFO - [2025-02-16 08:33:32,946] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:33:32,970] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.072 seconds
+[2025-02-16 08:35:41,142] {processor.py:153} INFO - Started process (PID=7330) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:35:41,144] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:35:41,144] {logging_mixin.py:115} INFO - [2025-02-16 08:35:41,144] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:35:41,149] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:35:41,177] {logging_mixin.py:115} INFO - [2025-02-16 08:35:41,177] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:35:41,182] {logging_mixin.py:115} INFO - [2025-02-16 08:35:41,182] {dag.py:2439} INFO - Creating ORM DAG for Lead_scoring_training_pipeline
+[2025-02-16 08:35:41,190] {logging_mixin.py:115} INFO - [2025-02-16 08:35:41,190] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:35:41,214] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.073 seconds
+[2025-02-16 08:35:59,973] {processor.py:153} INFO - Started process (PID=7377) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:35:59,973] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:35:59,974] {logging_mixin.py:115} INFO - [2025-02-16 08:35:59,974] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:35:59,983] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:35:59,992] {logging_mixin.py:115} INFO - [2025-02-16 08:35:59,992] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:36:00,012] {logging_mixin.py:115} INFO - [2025-02-16 08:36:00,012] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:36:00,052] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.082 seconds
+[2025-02-16 08:36:23,393] {processor.py:153} INFO - Started process (PID=7439) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:36:23,395] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:36:23,395] {logging_mixin.py:115} INFO - [2025-02-16 08:36:23,395] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:36:23,404] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:36:23,418] {logging_mixin.py:115} INFO - [2025-02-16 08:36:23,418] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:36:23,433] {logging_mixin.py:115} INFO - [2025-02-16 08:36:23,433] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:36:23,454] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.063 seconds
+[2025-02-16 08:36:35,069] {processor.py:153} INFO - Started process (PID=7507) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:36:35,070] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:36:35,070] {logging_mixin.py:115} INFO - [2025-02-16 08:36:35,070] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:36:35,078] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:36:35,092] {logging_mixin.py:115} INFO - [2025-02-16 08:36:35,092] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:36:35,108] {logging_mixin.py:115} INFO - [2025-02-16 08:36:35,108] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:36:35,236] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.170 seconds
+[2025-02-16 08:36:35,610] {processor.py:153} INFO - Started process (PID=7510) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:36:35,610] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:36:35,611] {logging_mixin.py:115} INFO - [2025-02-16 08:36:35,611] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:36:35,620] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:36:35,633] {logging_mixin.py:115} INFO - [2025-02-16 08:36:35,633] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:36:35,648] {logging_mixin.py:115} INFO - [2025-02-16 08:36:35,648] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:36:35,670] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.063 seconds
+[2025-02-16 08:37:03,200] {processor.py:153} INFO - Started process (PID=7807) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:37:03,202] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:37:03,202] {logging_mixin.py:115} INFO - [2025-02-16 08:37:03,202] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:37:03,211] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:37:03,245] {logging_mixin.py:115} INFO - [2025-02-16 08:37:03,245] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:37:03,265] {logging_mixin.py:115} INFO - [2025-02-16 08:37:03,264] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:37:03,286] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.089 seconds
+[2025-02-16 08:37:11,892] {processor.py:153} INFO - Started process (PID=7848) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:37:11,893] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:37:11,893] {logging_mixin.py:115} INFO - [2025-02-16 08:37:11,893] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:37:11,902] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:37:11,917] {logging_mixin.py:115} INFO - [2025-02-16 08:37:11,917] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:37:11,936] {logging_mixin.py:115} INFO - [2025-02-16 08:37:11,936] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:37:11,958] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.069 seconds
+[2025-02-16 08:37:16,593] {processor.py:153} INFO - Started process (PID=7877) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:37:16,593] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:37:16,594] {logging_mixin.py:115} INFO - [2025-02-16 08:37:16,594] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:37:16,602] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:37:16,617] {logging_mixin.py:115} INFO - [2025-02-16 08:37:16,617] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:37:16,636] {logging_mixin.py:115} INFO - [2025-02-16 08:37:16,636] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:37:16,658] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.068 seconds
+[2025-02-16 08:37:37,072] {processor.py:153} INFO - Started process (PID=8130) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:37:37,072] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:37:37,073] {logging_mixin.py:115} INFO - [2025-02-16 08:37:37,073] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:37:37,081] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:37:37,132] {logging_mixin.py:115} INFO - [2025-02-16 08:37:37,132] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:37:37,152] {logging_mixin.py:115} INFO - [2025-02-16 08:37:37,152] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:37:37,176] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.107 seconds
+[2025-02-16 08:37:51,828] {processor.py:153} INFO - Started process (PID=8218) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:37:51,830] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:37:51,830] {logging_mixin.py:115} INFO - [2025-02-16 08:37:51,830] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:37:51,839] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:37:51,852] {logging_mixin.py:115} INFO - [2025-02-16 08:37:51,852] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:37:51,867] {logging_mixin.py:115} INFO - [2025-02-16 08:37:51,867] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:37:51,887] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.062 seconds
+[2025-02-16 08:37:55,557] {processor.py:153} INFO - Started process (PID=8232) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:37:55,557] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:37:55,558] {logging_mixin.py:115} INFO - [2025-02-16 08:37:55,558] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:37:55,566] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:37:55,579] {logging_mixin.py:115} INFO - [2025-02-16 08:37:55,579] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:37:55,594] {logging_mixin.py:115} INFO - [2025-02-16 08:37:55,594] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:37:55,614] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.060 seconds
+[2025-02-16 08:38:08,853] {processor.py:153} INFO - Started process (PID=8301) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:38:08,854] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:38:08,854] {logging_mixin.py:115} INFO - [2025-02-16 08:38:08,854] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:38:08,862] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:38:08,876] {logging_mixin.py:115} INFO - [2025-02-16 08:38:08,876] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:38:08,892] {logging_mixin.py:115} INFO - [2025-02-16 08:38:08,891] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:38:08,911] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.061 seconds
+[2025-02-16 08:38:30,029] {processor.py:153} INFO - Started process (PID=8416) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:38:30,031] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:38:30,031] {logging_mixin.py:115} INFO - [2025-02-16 08:38:30,031] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:38:30,040] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:38:30,054] {logging_mixin.py:115} INFO - [2025-02-16 08:38:30,053] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:38:30,069] {logging_mixin.py:115} INFO - [2025-02-16 08:38:30,069] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:38:30,090] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.063 seconds
+[2025-02-16 08:38:32,768] {processor.py:153} INFO - Started process (PID=8427) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:38:32,768] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:38:32,769] {logging_mixin.py:115} INFO - [2025-02-16 08:38:32,769] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:38:32,777] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:38:32,790] {logging_mixin.py:115} INFO - [2025-02-16 08:38:32,790] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:38:32,805] {logging_mixin.py:115} INFO - [2025-02-16 08:38:32,805] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:38:32,825] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.060 seconds
+[2025-02-16 08:38:44,538] {processor.py:153} INFO - Started process (PID=8484) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:38:44,539] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:38:44,539] {logging_mixin.py:115} INFO - [2025-02-16 08:38:44,539] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:38:44,548] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:38:44,564] {logging_mixin.py:115} INFO - [2025-02-16 08:38:44,564] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:38:44,583] {logging_mixin.py:115} INFO - [2025-02-16 08:38:44,583] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:38:44,605] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.071 seconds
+[2025-02-16 08:39:54,364] {processor.py:153} INFO - Started process (PID=8828) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:39:54,365] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:39:54,366] {logging_mixin.py:115} INFO - [2025-02-16 08:39:54,366] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:39:54,373] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:39:54,417] {logging_mixin.py:115} INFO - [2025-02-16 08:39:54,416] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:39:54,423] {logging_mixin.py:115} INFO - [2025-02-16 08:39:54,423] {dag.py:2439} INFO - Creating ORM DAG for Lead_scoring_training_pipeline
+[2025-02-16 08:39:54,435] {logging_mixin.py:115} INFO - [2025-02-16 08:39:54,435] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:39:54,466] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.105 seconds
+[2025-02-16 08:40:35,676] {processor.py:153} INFO - Started process (PID=8882) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:40:35,678] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:40:35,679] {logging_mixin.py:115} INFO - [2025-02-16 08:40:35,679] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:40:35,687] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:40:35,701] {logging_mixin.py:115} INFO - [2025-02-16 08:40:35,701] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:40:35,717] {logging_mixin.py:115} INFO - [2025-02-16 08:40:35,717] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:40:35,823] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.150 seconds
+[2025-02-16 08:41:14,565] {processor.py:153} INFO - Started process (PID=8936) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:41:14,567] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:41:14,568] {logging_mixin.py:115} INFO - [2025-02-16 08:41:14,568] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:41:14,576] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:41:14,590] {logging_mixin.py:115} INFO - [2025-02-16 08:41:14,590] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:41:14,606] {logging_mixin.py:115} INFO - [2025-02-16 08:41:14,606] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:41:14,673] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.111 seconds
+[2025-02-16 08:41:51,701] {processor.py:153} INFO - Started process (PID=9159) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:41:51,702] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:41:51,703] {logging_mixin.py:115} INFO - [2025-02-16 08:41:51,703] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:41:51,711] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:41:51,725] {logging_mixin.py:115} INFO - [2025-02-16 08:41:51,725] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:41:51,741] {logging_mixin.py:115} INFO - [2025-02-16 08:41:51,741] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:41:51,761] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.063 seconds
+[2025-02-16 08:42:30,406] {processor.py:153} INFO - Started process (PID=9213) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:42:30,407] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:42:30,408] {logging_mixin.py:115} INFO - [2025-02-16 08:42:30,408] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:42:30,417] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:42:30,432] {logging_mixin.py:115} INFO - [2025-02-16 08:42:30,432] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:42:30,452] {logging_mixin.py:115} INFO - [2025-02-16 08:42:30,452] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:42:30,474] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.071 seconds
+[2025-02-16 08:43:09,168] {processor.py:153} INFO - Started process (PID=9267) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:43:09,173] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:43:09,173] {logging_mixin.py:115} INFO - [2025-02-16 08:43:09,173] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:43:09,182] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:43:09,198] {logging_mixin.py:115} INFO - [2025-02-16 08:43:09,198] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:43:09,217] {logging_mixin.py:115} INFO - [2025-02-16 08:43:09,217] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:43:09,236] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.071 seconds
+[2025-02-16 08:43:45,601] {processor.py:153} INFO - Started process (PID=9319) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:43:45,603] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:43:45,604] {logging_mixin.py:115} INFO - [2025-02-16 08:43:45,604] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:43:45,612] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:43:45,628] {logging_mixin.py:115} INFO - [2025-02-16 08:43:45,628] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:43:45,647] {logging_mixin.py:115} INFO - [2025-02-16 08:43:45,647] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:43:45,670] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.072 seconds
+[2025-02-16 08:44:23,401] {processor.py:153} INFO - Started process (PID=9372) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:44:23,402] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:44:23,403] {logging_mixin.py:115} INFO - [2025-02-16 08:44:23,403] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:44:23,412] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:44:23,427] {logging_mixin.py:115} INFO - [2025-02-16 08:44:23,427] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:44:23,447] {logging_mixin.py:115} INFO - [2025-02-16 08:44:23,447] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:44:23,469] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.071 seconds
+[2025-02-16 08:44:58,477] {processor.py:153} INFO - Started process (PID=9422) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:44:58,477] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:44:58,478] {logging_mixin.py:115} INFO - [2025-02-16 08:44:58,478] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:44:58,487] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:44:58,502] {logging_mixin.py:115} INFO - [2025-02-16 08:44:58,502] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:44:58,522] {logging_mixin.py:115} INFO - [2025-02-16 08:44:58,522] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:44:58,543] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.069 seconds
+[2025-02-16 08:45:35,909] {processor.py:153} INFO - Started process (PID=9474) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:45:35,911] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:45:35,911] {logging_mixin.py:115} INFO - [2025-02-16 08:45:35,911] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:45:35,921] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:45:35,936] {logging_mixin.py:115} INFO - [2025-02-16 08:45:35,936] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:45:35,952] {logging_mixin.py:115} INFO - [2025-02-16 08:45:35,952] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:45:35,972] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.066 seconds
+[2025-02-16 08:46:09,245] {processor.py:153} INFO - Started process (PID=9522) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:46:09,246] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:46:09,246] {logging_mixin.py:115} INFO - [2025-02-16 08:46:09,246] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:46:09,255] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:46:09,271] {logging_mixin.py:115} INFO - [2025-02-16 08:46:09,270] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:46:09,290] {logging_mixin.py:115} INFO - [2025-02-16 08:46:09,290] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:46:09,313] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.071 seconds
+[2025-02-16 08:46:46,989] {processor.py:153} INFO - Started process (PID=9575) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:46:46,991] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:46:46,991] {logging_mixin.py:115} INFO - [2025-02-16 08:46:46,991] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:46:47,000] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:46:47,014] {logging_mixin.py:115} INFO - [2025-02-16 08:46:47,014] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:46:47,029] {logging_mixin.py:115} INFO - [2025-02-16 08:46:47,029] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:46:47,049] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.063 seconds
+[2025-02-16 08:47:21,813] {processor.py:153} INFO - Started process (PID=9626) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:47:21,813] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:47:21,814] {logging_mixin.py:115} INFO - [2025-02-16 08:47:21,813] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:47:21,823] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:47:21,838] {logging_mixin.py:115} INFO - [2025-02-16 08:47:21,838] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:47:21,853] {logging_mixin.py:115} INFO - [2025-02-16 08:47:21,853] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:47:21,874] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.065 seconds
+[2025-02-16 08:48:00,053] {processor.py:153} INFO - Started process (PID=9680) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:48:00,055] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:48:00,056] {logging_mixin.py:115} INFO - [2025-02-16 08:48:00,056] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:48:00,064] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:48:00,078] {logging_mixin.py:115} INFO - [2025-02-16 08:48:00,078] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:48:00,094] {logging_mixin.py:115} INFO - [2025-02-16 08:48:00,094] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:48:00,114] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.064 seconds
+[2025-02-16 08:48:38,293] {processor.py:153} INFO - Started process (PID=9738) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:48:38,294] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:48:38,295] {logging_mixin.py:115} INFO - [2025-02-16 08:48:38,295] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:48:38,304] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:48:38,319] {logging_mixin.py:115} INFO - [2025-02-16 08:48:38,319] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:48:38,338] {logging_mixin.py:115} INFO - [2025-02-16 08:48:38,338] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:48:38,362] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.072 seconds
+[2025-02-16 08:49:10,866] {processor.py:153} INFO - Started process (PID=9786) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:49:10,867] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:49:10,868] {logging_mixin.py:115} INFO - [2025-02-16 08:49:10,868] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:49:10,877] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:49:10,891] {logging_mixin.py:115} INFO - [2025-02-16 08:49:10,891] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:49:10,906] {logging_mixin.py:115} INFO - [2025-02-16 08:49:10,906] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:49:10,926] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.063 seconds
+[2025-02-16 08:49:44,601] {processor.py:153} INFO - Started process (PID=9837) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:49:44,601] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:49:44,602] {logging_mixin.py:115} INFO - [2025-02-16 08:49:44,602] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:49:44,611] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:49:44,626] {logging_mixin.py:115} INFO - [2025-02-16 08:49:44,626] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:49:44,645] {logging_mixin.py:115} INFO - [2025-02-16 08:49:44,645] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:49:44,667] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.069 seconds
+[2025-02-16 08:50:20,986] {processor.py:153} INFO - Started process (PID=9888) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:50:20,988] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:50:20,989] {logging_mixin.py:115} INFO - [2025-02-16 08:50:20,989] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:50:20,997] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:50:21,013] {logging_mixin.py:115} INFO - [2025-02-16 08:50:21,013] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:50:21,032] {logging_mixin.py:115} INFO - [2025-02-16 08:50:21,032] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:50:21,054] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.071 seconds
+[2025-02-16 08:51:00,230] {processor.py:153} INFO - Started process (PID=9945) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:51:00,231] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:51:00,232] {logging_mixin.py:115} INFO - [2025-02-16 08:51:00,232] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:51:00,240] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:51:00,256] {logging_mixin.py:115} INFO - [2025-02-16 08:51:00,256] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:51:00,274] {logging_mixin.py:115} INFO - [2025-02-16 08:51:00,274] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:51:00,294] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.068 seconds
+[2025-02-16 08:51:33,965] {processor.py:153} INFO - Started process (PID=9992) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:51:33,967] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:51:33,968] {logging_mixin.py:115} INFO - [2025-02-16 08:51:33,968] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:51:33,976] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:51:33,992] {logging_mixin.py:115} INFO - [2025-02-16 08:51:33,992] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:51:34,011] {logging_mixin.py:115} INFO - [2025-02-16 08:51:34,011] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:51:34,033] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.072 seconds
+[2025-02-16 08:52:12,424] {processor.py:153} INFO - Started process (PID=10046) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:52:12,426] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:52:12,426] {logging_mixin.py:115} INFO - [2025-02-16 08:52:12,426] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:52:12,435] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:52:12,450] {logging_mixin.py:115} INFO - [2025-02-16 08:52:12,450] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:52:12,469] {logging_mixin.py:115} INFO - [2025-02-16 08:52:12,469] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:52:12,530] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.109 seconds
+[2025-02-16 08:52:49,382] {processor.py:153} INFO - Started process (PID=10114) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:52:49,383] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:52:49,384] {logging_mixin.py:115} INFO - [2025-02-16 08:52:49,384] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:52:49,393] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:52:49,408] {logging_mixin.py:115} INFO - [2025-02-16 08:52:49,408] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:52:49,428] {logging_mixin.py:115} INFO - [2025-02-16 08:52:49,428] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:52:49,451] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.073 seconds
+[2025-02-16 08:53:26,540] {processor.py:153} INFO - Started process (PID=10166) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:53:26,542] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:53:26,542] {logging_mixin.py:115} INFO - [2025-02-16 08:53:26,542] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:53:26,551] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:53:26,566] {logging_mixin.py:115} INFO - [2025-02-16 08:53:26,566] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:53:26,586] {logging_mixin.py:115} INFO - [2025-02-16 08:53:26,585] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:53:26,607] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.070 seconds
+[2025-02-16 08:54:05,476] {processor.py:153} INFO - Started process (PID=10224) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:54:05,478] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:54:05,479] {logging_mixin.py:115} INFO - [2025-02-16 08:54:05,478] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:54:05,487] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:54:05,503] {logging_mixin.py:115} INFO - [2025-02-16 08:54:05,503] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:54:05,522] {logging_mixin.py:115} INFO - [2025-02-16 08:54:05,522] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:54:05,544] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.071 seconds
+[2025-02-16 08:56:26,931] {processor.py:153} INFO - Started process (PID=10289) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:56:26,932] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:56:26,933] {logging_mixin.py:115} INFO - [2025-02-16 08:56:26,932] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:56:26,937] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:56:26,966] {logging_mixin.py:115} INFO - [2025-02-16 08:56:26,965] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:56:26,970] {logging_mixin.py:115} INFO - [2025-02-16 08:56:26,970] {dag.py:2439} INFO - Creating ORM DAG for Lead_scoring_training_pipeline
+[2025-02-16 08:56:26,977] {logging_mixin.py:115} INFO - [2025-02-16 08:56:26,977] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:56:27,002] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.072 seconds
+[2025-02-16 08:57:07,757] {processor.py:153} INFO - Started process (PID=10343) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:57:07,758] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:57:07,759] {logging_mixin.py:115} INFO - [2025-02-16 08:57:07,759] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:57:07,767] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:57:07,782] {logging_mixin.py:115} INFO - [2025-02-16 08:57:07,782] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:57:07,798] {logging_mixin.py:115} INFO - [2025-02-16 08:57:07,798] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:57:07,822] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.069 seconds
+[2025-02-16 08:57:45,756] {processor.py:153} INFO - Started process (PID=10397) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:57:45,758] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:57:45,758] {logging_mixin.py:115} INFO - [2025-02-16 08:57:45,758] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:57:45,767] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:57:45,782] {logging_mixin.py:115} INFO - [2025-02-16 08:57:45,782] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:57:45,801] {logging_mixin.py:115} INFO - [2025-02-16 08:57:45,801] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:57:45,823] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.070 seconds
+[2025-02-16 08:58:23,249] {processor.py:153} INFO - Started process (PID=10451) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:58:23,251] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:58:23,252] {logging_mixin.py:115} INFO - [2025-02-16 08:58:23,252] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:58:23,260] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:58:23,274] {logging_mixin.py:115} INFO - [2025-02-16 08:58:23,274] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:58:23,294] {logging_mixin.py:115} INFO - [2025-02-16 08:58:23,294] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:58:23,315] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.069 seconds
+[2025-02-16 08:59:01,077] {processor.py:153} INFO - Started process (PID=10505) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:59:01,078] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:59:01,079] {logging_mixin.py:115} INFO - [2025-02-16 08:59:01,079] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:59:01,087] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:59:01,101] {logging_mixin.py:115} INFO - [2025-02-16 08:59:01,101] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:59:01,116] {logging_mixin.py:115} INFO - [2025-02-16 08:59:01,116] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:59:01,137] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.063 seconds
+[2025-02-16 08:59:40,672] {processor.py:153} INFO - Started process (PID=10735) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:59:40,674] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 08:59:40,674] {logging_mixin.py:115} INFO - [2025-02-16 08:59:40,674] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:59:40,682] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 08:59:40,696] {logging_mixin.py:115} INFO - [2025-02-16 08:59:40,696] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 08:59:40,711] {logging_mixin.py:115} INFO - [2025-02-16 08:59:40,711] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 08:59:40,732] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.063 seconds
+[2025-02-16 09:00:17,894] {processor.py:153} INFO - Started process (PID=10790) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:00:17,895] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:00:17,896] {logging_mixin.py:115} INFO - [2025-02-16 09:00:17,896] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:00:17,904] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:00:17,919] {logging_mixin.py:115} INFO - [2025-02-16 09:00:17,919] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:00:17,938] {logging_mixin.py:115} INFO - [2025-02-16 09:00:17,938] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:00:17,961] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.071 seconds
+[2025-02-16 09:00:54,173] {processor.py:153} INFO - Started process (PID=10843) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:00:54,175] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:00:54,175] {logging_mixin.py:115} INFO - [2025-02-16 09:00:54,175] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:00:54,184] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:00:54,199] {logging_mixin.py:115} INFO - [2025-02-16 09:00:54,199] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:00:54,218] {logging_mixin.py:115} INFO - [2025-02-16 09:00:54,218] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:00:54,244] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.074 seconds
+[2025-02-16 09:01:34,156] {processor.py:153} INFO - Started process (PID=10900) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:01:34,157] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:01:34,158] {logging_mixin.py:115} INFO - [2025-02-16 09:01:34,158] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:01:34,166] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:01:34,180] {logging_mixin.py:115} INFO - [2025-02-16 09:01:34,180] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:01:34,195] {logging_mixin.py:115} INFO - [2025-02-16 09:01:34,195] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:01:34,217] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.064 seconds
+[2025-02-16 09:02:05,185] {processor.py:153} INFO - Started process (PID=10967) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:02:05,185] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:02:05,185] {logging_mixin.py:115} INFO - [2025-02-16 09:02:05,185] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:02:05,194] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:02:05,209] {logging_mixin.py:115} INFO - [2025-02-16 09:02:05,209] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:02:05,228] {logging_mixin.py:115} INFO - [2025-02-16 09:02:05,228] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:02:05,251] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.069 seconds
+[2025-02-16 09:02:41,666] {processor.py:153} INFO - Started process (PID=11019) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:02:41,668] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:02:41,668] {logging_mixin.py:115} INFO - [2025-02-16 09:02:41,668] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:02:41,677] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:02:41,692] {logging_mixin.py:115} INFO - [2025-02-16 09:02:41,692] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:02:41,711] {logging_mixin.py:115} INFO - [2025-02-16 09:02:41,711] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:02:41,734] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.072 seconds
+[2025-02-16 09:03:18,817] {processor.py:153} INFO - Started process (PID=11071) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:03:18,819] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:03:18,820] {logging_mixin.py:115} INFO - [2025-02-16 09:03:18,819] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:03:18,828] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:03:18,843] {logging_mixin.py:115} INFO - [2025-02-16 09:03:18,843] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:03:18,862] {logging_mixin.py:115} INFO - [2025-02-16 09:03:18,862] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:03:18,885] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.070 seconds
+[2025-02-16 09:03:54,893] {processor.py:153} INFO - Started process (PID=11127) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:03:54,894] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:03:54,895] {logging_mixin.py:115} INFO - [2025-02-16 09:03:54,895] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:03:54,904] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:03:54,919] {logging_mixin.py:115} INFO - [2025-02-16 09:03:54,919] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:03:54,938] {logging_mixin.py:115} INFO - [2025-02-16 09:03:54,938] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:03:54,963] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.073 seconds
+[2025-02-16 09:04:27,598] {processor.py:153} INFO - Started process (PID=11174) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:04:27,599] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:04:27,600] {logging_mixin.py:115} INFO - [2025-02-16 09:04:27,600] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:04:27,609] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:04:27,623] {logging_mixin.py:115} INFO - [2025-02-16 09:04:27,622] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:04:27,642] {logging_mixin.py:115} INFO - [2025-02-16 09:04:27,642] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:04:27,664] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.069 seconds
+[2025-02-16 09:05:06,393] {processor.py:153} INFO - Started process (PID=11231) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:05:06,394] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:05:06,395] {logging_mixin.py:115} INFO - [2025-02-16 09:05:06,395] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:05:06,404] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:05:06,419] {logging_mixin.py:115} INFO - [2025-02-16 09:05:06,419] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:05:06,438] {logging_mixin.py:115} INFO - [2025-02-16 09:05:06,438] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:05:06,461] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.071 seconds
+[2025-02-16 09:05:42,902] {processor.py:153} INFO - Started process (PID=11304) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:05:42,903] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:05:42,904] {logging_mixin.py:115} INFO - [2025-02-16 09:05:42,904] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:05:42,912] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:05:42,928] {logging_mixin.py:115} INFO - [2025-02-16 09:05:42,927] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:05:42,947] {logging_mixin.py:115} INFO - [2025-02-16 09:05:42,947] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:05:42,969] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.071 seconds
+[2025-02-16 09:06:20,456] {processor.py:153} INFO - Started process (PID=11357) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:06:20,458] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:06:20,458] {logging_mixin.py:115} INFO - [2025-02-16 09:06:20,458] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:06:20,467] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:06:20,480] {logging_mixin.py:115} INFO - [2025-02-16 09:06:20,480] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:06:20,495] {logging_mixin.py:115} INFO - [2025-02-16 09:06:20,495] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:06:20,516] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.063 seconds
+[2025-02-16 09:06:58,836] {processor.py:153} INFO - Started process (PID=11421) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:06:58,838] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:06:58,838] {logging_mixin.py:115} INFO - [2025-02-16 09:06:58,838] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:06:58,846] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:06:58,860] {logging_mixin.py:115} INFO - [2025-02-16 09:06:58,860] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:06:58,875] {logging_mixin.py:115} INFO - [2025-02-16 09:06:58,875] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:06:58,895] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.062 seconds
+[2025-02-16 09:07:33,449] {processor.py:153} INFO - Started process (PID=11478) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:07:33,450] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:07:33,451] {logging_mixin.py:115} INFO - [2025-02-16 09:07:33,451] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:07:33,459] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:07:33,473] {logging_mixin.py:115} INFO - [2025-02-16 09:07:33,473] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:07:33,488] {logging_mixin.py:115} INFO - [2025-02-16 09:07:33,488] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:07:33,507] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.061 seconds
+[2025-02-16 09:08:03,881] {processor.py:153} INFO - Started process (PID=11532) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:08:03,881] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:08:03,882] {logging_mixin.py:115} INFO - [2025-02-16 09:08:03,882] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:08:03,890] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:08:03,906] {logging_mixin.py:115} INFO - [2025-02-16 09:08:03,906] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:08:03,925] {logging_mixin.py:115} INFO - [2025-02-16 09:08:03,925] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:08:03,947] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.069 seconds
+[2025-02-16 09:08:35,037] {processor.py:153} INFO - Started process (PID=11593) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:08:35,039] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:08:35,039] {logging_mixin.py:115} INFO - [2025-02-16 09:08:35,039] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:08:35,048] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:08:35,063] {logging_mixin.py:115} INFO - [2025-02-16 09:08:35,063] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:08:35,083] {logging_mixin.py:115} INFO - [2025-02-16 09:08:35,082] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:08:35,105] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.071 seconds
+[2025-02-16 09:09:07,764] {processor.py:153} INFO - Started process (PID=11666) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:09:07,765] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:09:07,766] {logging_mixin.py:115} INFO - [2025-02-16 09:09:07,766] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:09:07,774] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:09:07,788] {logging_mixin.py:115} INFO - [2025-02-16 09:09:07,788] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:09:07,803] {logging_mixin.py:115} INFO - [2025-02-16 09:09:07,803] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:09:07,822] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.061 seconds
+[2025-02-16 09:09:40,713] {processor.py:153} INFO - Started process (PID=11722) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:09:40,713] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:09:40,713] {logging_mixin.py:115} INFO - [2025-02-16 09:09:40,713] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:09:40,722] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:09:40,737] {logging_mixin.py:115} INFO - [2025-02-16 09:09:40,737] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:09:40,756] {logging_mixin.py:115} INFO - [2025-02-16 09:09:40,756] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:09:40,778] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.069 seconds
+[2025-02-16 09:10:19,620] {processor.py:153} INFO - Started process (PID=11785) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:10:19,621] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:10:19,622] {logging_mixin.py:115} INFO - [2025-02-16 09:10:19,621] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:10:19,630] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:10:19,645] {logging_mixin.py:115} INFO - [2025-02-16 09:10:19,645] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:10:19,664] {logging_mixin.py:115} INFO - [2025-02-16 09:10:19,664] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:10:19,686] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.069 seconds
+[2025-02-16 09:11:00,609] {processor.py:153} INFO - Started process (PID=11857) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:11:00,611] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:11:00,611] {logging_mixin.py:115} INFO - [2025-02-16 09:11:00,611] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:11:00,619] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:11:00,635] {logging_mixin.py:115} INFO - [2025-02-16 09:11:00,635] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:11:00,652] {logging_mixin.py:115} INFO - [2025-02-16 09:11:00,652] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:11:00,672] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.066 seconds
+[2025-02-16 09:11:37,509] {processor.py:153} INFO - Started process (PID=11917) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:11:37,510] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:11:37,511] {logging_mixin.py:115} INFO - [2025-02-16 09:11:37,511] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:11:37,520] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:11:37,535] {logging_mixin.py:115} INFO - [2025-02-16 09:11:37,535] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:11:37,554] {logging_mixin.py:115} INFO - [2025-02-16 09:11:37,554] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:11:37,576] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.070 seconds
+[2025-02-16 09:12:17,697] {processor.py:153} INFO - Started process (PID=11980) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:12:17,699] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:12:17,700] {logging_mixin.py:115} INFO - [2025-02-16 09:12:17,699] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:12:17,708] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:12:17,723] {logging_mixin.py:115} INFO - [2025-02-16 09:12:17,723] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:12:17,742] {logging_mixin.py:115} INFO - [2025-02-16 09:12:17,742] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:12:17,762] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.068 seconds
+[2025-02-16 09:12:51,398] {processor.py:153} INFO - Started process (PID=12203) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:12:51,398] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:12:51,398] {logging_mixin.py:115} INFO - [2025-02-16 09:12:51,398] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:12:51,408] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:12:51,423] {logging_mixin.py:115} INFO - [2025-02-16 09:12:51,422] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:12:51,442] {logging_mixin.py:115} INFO - [2025-02-16 09:12:51,442] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:12:51,464] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.069 seconds
+[2025-02-16 09:13:24,364] {processor.py:153} INFO - Started process (PID=12260) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:13:24,366] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:13:24,366] {logging_mixin.py:115} INFO - [2025-02-16 09:13:24,366] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:13:24,375] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:13:24,390] {logging_mixin.py:115} INFO - [2025-02-16 09:13:24,390] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:13:24,409] {logging_mixin.py:115} INFO - [2025-02-16 09:13:24,409] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:13:24,430] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.069 seconds
+[2025-02-16 09:14:07,744] {processor.py:153} INFO - Started process (PID=12348) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:14:07,745] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:14:07,746] {logging_mixin.py:115} INFO - [2025-02-16 09:14:07,745] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:14:07,754] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:14:07,769] {logging_mixin.py:115} INFO - [2025-02-16 09:14:07,769] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:14:07,788] {logging_mixin.py:115} INFO - [2025-02-16 09:14:07,788] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:14:07,810] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.069 seconds
+[2025-02-16 09:14:44,254] {processor.py:153} INFO - Started process (PID=12424) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:14:44,255] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:14:44,256] {logging_mixin.py:115} INFO - [2025-02-16 09:14:44,256] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:14:44,265] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:14:44,278] {logging_mixin.py:115} INFO - [2025-02-16 09:14:44,278] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:14:44,293] {logging_mixin.py:115} INFO - [2025-02-16 09:14:44,293] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:14:44,314] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.063 seconds
+[2025-02-16 09:15:17,829] {processor.py:153} INFO - Started process (PID=12481) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:15:17,831] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:15:17,832] {logging_mixin.py:115} INFO - [2025-02-16 09:15:17,831] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:15:17,840] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:15:17,855] {logging_mixin.py:115} INFO - [2025-02-16 09:15:17,855] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:15:17,874] {logging_mixin.py:115} INFO - [2025-02-16 09:15:17,874] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:15:17,923] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.097 seconds
+[2025-02-16 09:15:55,617] {processor.py:153} INFO - Started process (PID=12543) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:15:55,619] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:15:55,619] {logging_mixin.py:115} INFO - [2025-02-16 09:15:55,619] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:15:55,628] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:15:55,641] {logging_mixin.py:115} INFO - [2025-02-16 09:15:55,641] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:15:55,656] {logging_mixin.py:115} INFO - [2025-02-16 09:15:55,656] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:15:55,676] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.062 seconds
+[2025-02-16 09:16:34,516] {processor.py:153} INFO - Started process (PID=12605) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:16:34,517] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:16:34,518] {logging_mixin.py:115} INFO - [2025-02-16 09:16:34,518] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:16:34,526] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:16:34,542] {logging_mixin.py:115} INFO - [2025-02-16 09:16:34,541] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:16:34,560] {logging_mixin.py:115} INFO - [2025-02-16 09:16:34,560] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:16:34,608] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.095 seconds
+[2025-02-16 09:17:15,506] {processor.py:153} INFO - Started process (PID=12676) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:17:15,507] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:17:15,508] {logging_mixin.py:115} INFO - [2025-02-16 09:17:15,508] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:17:15,516] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:17:15,529] {logging_mixin.py:115} INFO - [2025-02-16 09:17:15,529] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:17:15,545] {logging_mixin.py:115} INFO - [2025-02-16 09:17:15,545] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:17:15,565] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.063 seconds
+[2025-02-16 09:17:51,208] {processor.py:153} INFO - Started process (PID=12741) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:17:51,209] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:17:51,210] {logging_mixin.py:115} INFO - [2025-02-16 09:17:51,210] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:17:51,219] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:17:51,234] {logging_mixin.py:115} INFO - [2025-02-16 09:17:51,234] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:17:51,253] {logging_mixin.py:115} INFO - [2025-02-16 09:17:51,252] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:17:51,275] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.070 seconds
+[2025-02-16 09:18:31,053] {processor.py:153} INFO - Started process (PID=12808) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:18:31,055] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:18:31,055] {logging_mixin.py:115} INFO - [2025-02-16 09:18:31,055] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:18:31,063] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:18:31,079] {logging_mixin.py:115} INFO - [2025-02-16 09:18:31,079] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:18:31,096] {logging_mixin.py:115} INFO - [2025-02-16 09:18:31,096] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:18:31,117] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.067 seconds
+[2025-02-16 09:19:05,305] {processor.py:153} INFO - Started process (PID=12882) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:19:05,305] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:19:05,306] {logging_mixin.py:115} INFO - [2025-02-16 09:19:05,306] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:19:05,314] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:19:05,330] {logging_mixin.py:115} INFO - [2025-02-16 09:19:05,330] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:19:05,346] {logging_mixin.py:115} INFO - [2025-02-16 09:19:05,346] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:19:05,366] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.064 seconds
+[2025-02-16 09:19:39,156] {processor.py:153} INFO - Started process (PID=12939) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:19:39,158] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:19:39,159] {logging_mixin.py:115} INFO - [2025-02-16 09:19:39,159] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:19:39,167] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:19:39,181] {logging_mixin.py:115} INFO - [2025-02-16 09:19:39,181] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:19:39,196] {logging_mixin.py:115} INFO - [2025-02-16 09:19:39,196] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:19:39,214] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.061 seconds
+[2025-02-16 09:20:14,342] {processor.py:153} INFO - Started process (PID=12995) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:20:14,344] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:20:14,345] {logging_mixin.py:115} INFO - [2025-02-16 09:20:14,345] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:20:14,355] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:20:14,373] {logging_mixin.py:115} INFO - [2025-02-16 09:20:14,373] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:20:14,395] {logging_mixin.py:115} INFO - [2025-02-16 09:20:14,395] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:20:14,420] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.081 seconds
+[2025-02-16 09:20:49,181] {processor.py:153} INFO - Started process (PID=13053) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:20:49,183] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:20:49,184] {logging_mixin.py:115} INFO - [2025-02-16 09:20:49,184] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:20:49,192] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:20:49,208] {logging_mixin.py:115} INFO - [2025-02-16 09:20:49,208] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:20:49,227] {logging_mixin.py:115} INFO - [2025-02-16 09:20:49,227] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:20:49,250] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.072 seconds
+[2025-02-16 09:21:22,277] {processor.py:153} INFO - Started process (PID=13112) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:21:22,278] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:21:22,278] {logging_mixin.py:115} INFO - [2025-02-16 09:21:22,278] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:21:22,286] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:21:22,302] {logging_mixin.py:115} INFO - [2025-02-16 09:21:22,302] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:21:22,321] {logging_mixin.py:115} INFO - [2025-02-16 09:21:22,321] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:21:22,342] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.068 seconds
+[2025-02-16 09:22:05,080] {processor.py:153} INFO - Started process (PID=13193) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:22:05,082] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:22:05,083] {logging_mixin.py:115} INFO - [2025-02-16 09:22:05,083] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:22:05,092] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:22:05,106] {logging_mixin.py:115} INFO - [2025-02-16 09:22:05,106] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:22:05,125] {logging_mixin.py:115} INFO - [2025-02-16 09:22:05,125] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:22:05,197] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.119 seconds
+[2025-02-16 09:23:05,093] {processor.py:153} INFO - Started process (PID=13291) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:23:05,094] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:23:05,095] {logging_mixin.py:115} INFO - [2025-02-16 09:23:05,095] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:23:05,104] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:23:05,119] {logging_mixin.py:115} INFO - [2025-02-16 09:23:05,118] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:23:05,134] {logging_mixin.py:115} INFO - [2025-02-16 09:23:05,134] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:23:05,154] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.065 seconds
+[2025-02-16 09:23:25,936] {processor.py:153} INFO - Started process (PID=13359) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:23:25,938] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:23:25,939] {logging_mixin.py:115} INFO - [2025-02-16 09:23:25,939] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:23:25,947] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:23:25,961] {logging_mixin.py:115} INFO - [2025-02-16 09:23:25,961] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:23:25,977] {logging_mixin.py:115} INFO - [2025-02-16 09:23:25,977] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:23:25,996] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.063 seconds
+[2025-02-16 09:23:44,229] {processor.py:153} INFO - Started process (PID=13418) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:23:44,231] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:23:44,232] {logging_mixin.py:115} INFO - [2025-02-16 09:23:44,232] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:23:44,241] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:23:44,257] {logging_mixin.py:115} INFO - [2025-02-16 09:23:44,257] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:23:44,275] {logging_mixin.py:115} INFO - [2025-02-16 09:23:44,275] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:23:44,296] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.070 seconds
+[2025-02-16 09:24:06,126] {processor.py:153} INFO - Started process (PID=13485) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:24:06,127] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:24:06,127] {logging_mixin.py:115} INFO - [2025-02-16 09:24:06,127] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:24:06,136] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:24:06,150] {logging_mixin.py:115} INFO - [2025-02-16 09:24:06,150] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:24:06,165] {logging_mixin.py:115} INFO - [2025-02-16 09:24:06,165] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:24:06,185] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.062 seconds
+[2025-02-16 09:24:23,677] {processor.py:153} INFO - Started process (PID=13585) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:24:23,678] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:24:23,679] {logging_mixin.py:115} INFO - [2025-02-16 09:24:23,679] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:24:23,687] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:24:23,701] {logging_mixin.py:115} INFO - [2025-02-16 09:24:23,701] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:24:23,716] {logging_mixin.py:115} INFO - [2025-02-16 09:24:23,716] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:24:23,737] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.063 seconds
+[2025-02-16 09:24:24,941] {processor.py:153} INFO - Started process (PID=13589) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:24:24,945] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:24:24,945] {logging_mixin.py:115} INFO - [2025-02-16 09:24:24,945] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:24:24,954] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:24:24,970] {logging_mixin.py:115} INFO - [2025-02-16 09:24:24,970] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:24:24,990] {logging_mixin.py:115} INFO - [2025-02-16 09:24:24,990] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:24:25,015] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.077 seconds
+[2025-02-16 09:24:47,872] {processor.py:153} INFO - Started process (PID=13687) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:24:47,872] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:24:47,873] {logging_mixin.py:115} INFO - [2025-02-16 09:24:47,873] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:24:47,881] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:24:47,906] {logging_mixin.py:115} INFO - [2025-02-16 09:24:47,906] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:24:47,925] {logging_mixin.py:115} INFO - [2025-02-16 09:24:47,925] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:24:47,948] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.079 seconds
+[2025-02-16 09:25:04,097] {processor.py:153} INFO - Started process (PID=13774) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:25:04,099] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:25:04,100] {logging_mixin.py:115} INFO - [2025-02-16 09:25:04,099] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:25:04,108] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:25:04,123] {logging_mixin.py:115} INFO - [2025-02-16 09:25:04,123] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:25:04,162] {logging_mixin.py:115} INFO - [2025-02-16 09:25:04,162] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:25:04,280] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.186 seconds
+[2025-02-16 09:25:06,641] {processor.py:153} INFO - Started process (PID=13780) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:25:06,641] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:25:06,642] {logging_mixin.py:115} INFO - [2025-02-16 09:25:06,642] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:25:06,651] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:25:06,677] {logging_mixin.py:115} INFO - [2025-02-16 09:25:06,677] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:25:06,697] {logging_mixin.py:115} INFO - [2025-02-16 09:25:06,697] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:25:06,718] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.081 seconds
+[2025-02-16 09:25:26,354] {processor.py:153} INFO - Started process (PID=13857) to work on /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:25:26,355] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py for tasks to queue
+[2025-02-16 09:25:26,355] {logging_mixin.py:115} INFO - [2025-02-16 09:25:26,355] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:25:26,364] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_training_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py
+[2025-02-16 09:25:26,379] {logging_mixin.py:115} INFO - [2025-02-16 09:25:26,379] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-16 09:25:26,399] {logging_mixin.py:115} INFO - [2025-02-16 09:25:26,399] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2025-01-01T00:00:00+00:00, run_after=2025-02-01T00:00:00+00:00
+[2025-02-16 09:25:26,422] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_training_pipeline.py took 0.071 seconds

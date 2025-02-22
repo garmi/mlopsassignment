@@ -1,0 +1,608 @@
+[2025-02-16 09:06:27,065] {processor.py:153} INFO - Started process (PID=11365) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:06:27,066] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:06:27,066] {logging_mixin.py:115} INFO - [2025-02-16 09:06:27,066] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:06:27,256] {logging_mixin.py:115} INFO - [2025-02-16 09:06:27,256] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:06:27,256] {logging_mixin.py:115} INFO - [2025-02-16 09:06:27,256] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:06:27,394] {logging_mixin.py:115} INFO - [2025-02-16 09:06:27,393] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:06:27,394] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:06:27,418] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.355 seconds
+[2025-02-16 09:07:07,880] {processor.py:153} INFO - Started process (PID=11430) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:07:07,881] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:07:07,882] {logging_mixin.py:115} INFO - [2025-02-16 09:07:07,882] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:07:08,059] {logging_mixin.py:115} INFO - [2025-02-16 09:07:08,059] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:07:08,059] {logging_mixin.py:115} INFO - [2025-02-16 09:07:08,059] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:07:08,198] {logging_mixin.py:115} INFO - [2025-02-16 09:07:08,197] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:07:08,198] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:07:08,223] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.346 seconds
+[2025-02-16 09:07:43,793] {processor.py:153} INFO - Started process (PID=11497) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:07:43,795] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:07:43,795] {logging_mixin.py:115} INFO - [2025-02-16 09:07:43,795] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:07:43,964] {logging_mixin.py:115} INFO - [2025-02-16 09:07:43,964] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:07:43,964] {logging_mixin.py:115} INFO - [2025-02-16 09:07:43,964] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:07:44,101] {logging_mixin.py:115} INFO - [2025-02-16 09:07:44,100] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:07:44,101] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:07:44,123] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.333 seconds
+[2025-02-16 09:08:15,065] {processor.py:153} INFO - Started process (PID=11556) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:08:15,065] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:08:15,066] {logging_mixin.py:115} INFO - [2025-02-16 09:08:15,066] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:08:15,291] {logging_mixin.py:115} INFO - [2025-02-16 09:08:15,291] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:08:15,291] {logging_mixin.py:115} INFO - [2025-02-16 09:08:15,291] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:08:15,455] {logging_mixin.py:115} INFO - [2025-02-16 09:08:15,454] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:08:15,456] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:08:15,479] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.417 seconds
+[2025-02-16 09:08:55,636] {processor.py:153} INFO - Started process (PID=11639) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:08:55,637] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:08:55,638] {logging_mixin.py:115} INFO - [2025-02-16 09:08:55,638] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:08:55,815] {logging_mixin.py:115} INFO - [2025-02-16 09:08:55,815] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:08:55,815] {logging_mixin.py:115} INFO - [2025-02-16 09:08:55,815] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:08:55,953] {logging_mixin.py:115} INFO - [2025-02-16 09:08:55,952] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:08:55,953] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:08:55,976] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.343 seconds
+[2025-02-16 09:09:28,777] {processor.py:153} INFO - Started process (PID=11695) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:09:28,778] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:09:28,779] {logging_mixin.py:115} INFO - [2025-02-16 09:09:28,779] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:09:28,963] {logging_mixin.py:115} INFO - [2025-02-16 09:09:28,963] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:09:28,963] {logging_mixin.py:115} INFO - [2025-02-16 09:09:28,963] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:09:29,100] {logging_mixin.py:115} INFO - [2025-02-16 09:09:29,099] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:09:29,100] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:09:29,122] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.349 seconds
+[2025-02-16 09:09:59,281] {processor.py:153} INFO - Started process (PID=11749) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:09:59,281] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:09:59,281] {logging_mixin.py:115} INFO - [2025-02-16 09:09:59,281] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:09:59,463] {logging_mixin.py:115} INFO - [2025-02-16 09:09:59,463] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:09:59,463] {logging_mixin.py:115} INFO - [2025-02-16 09:09:59,463] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:09:59,605] {logging_mixin.py:115} INFO - [2025-02-16 09:09:59,603] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:09:59,605] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:09:59,628] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.350 seconds
+[2025-02-16 09:10:38,802] {processor.py:153} INFO - Started process (PID=11812) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:10:38,803] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:10:38,803] {logging_mixin.py:115} INFO - [2025-02-16 09:10:38,803] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:10:38,979] {logging_mixin.py:115} INFO - [2025-02-16 09:10:38,979] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:10:38,979] {logging_mixin.py:115} INFO - [2025-02-16 09:10:38,979] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:10:39,116] {logging_mixin.py:115} INFO - [2025-02-16 09:10:39,115] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:10:39,116] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:10:39,140] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.342 seconds
+[2025-02-16 09:11:17,444] {processor.py:153} INFO - Started process (PID=11875) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:11:17,446] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:11:17,446] {logging_mixin.py:115} INFO - [2025-02-16 09:11:17,446] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:11:17,633] {logging_mixin.py:115} INFO - [2025-02-16 09:11:17,633] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:11:17,633] {logging_mixin.py:115} INFO - [2025-02-16 09:11:17,633] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:11:17,771] {logging_mixin.py:115} INFO - [2025-02-16 09:11:17,770] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:11:17,771] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:11:17,793] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.352 seconds
+[2025-02-16 09:11:56,837] {processor.py:153} INFO - Started process (PID=11937) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:11:56,839] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:11:56,839] {logging_mixin.py:115} INFO - [2025-02-16 09:11:56,839] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:11:57,018] {logging_mixin.py:115} INFO - [2025-02-16 09:11:57,018] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:11:57,019] {logging_mixin.py:115} INFO - [2025-02-16 09:11:57,018] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:11:57,158] {logging_mixin.py:115} INFO - [2025-02-16 09:11:57,157] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:11:57,158] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:11:57,181] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.347 seconds
+[2025-02-16 09:12:29,145] {processor.py:153} INFO - Started process (PID=11991) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:12:29,145] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:12:29,146] {logging_mixin.py:115} INFO - [2025-02-16 09:12:29,146] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:12:29,336] {logging_mixin.py:115} INFO - [2025-02-16 09:12:29,336] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:12:29,336] {logging_mixin.py:115} INFO - [2025-02-16 09:12:29,336] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:12:29,472] {logging_mixin.py:115} INFO - [2025-02-16 09:12:29,471] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:12:29,472] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:12:29,495] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.353 seconds
+[2025-02-16 09:13:01,725] {processor.py:153} INFO - Started process (PID=12213) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:13:01,726] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:13:01,727] {logging_mixin.py:115} INFO - [2025-02-16 09:13:01,727] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:13:01,909] {logging_mixin.py:115} INFO - [2025-02-16 09:13:01,908] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:13:01,909] {logging_mixin.py:115} INFO - [2025-02-16 09:13:01,909] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:13:02,048] {logging_mixin.py:115} INFO - [2025-02-16 09:13:02,046] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:13:02,048] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:13:02,071] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.349 seconds
+[2025-02-16 09:13:32,780] {processor.py:153} INFO - Started process (PID=12271) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:13:32,781] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:13:32,781] {logging_mixin.py:115} INFO - [2025-02-16 09:13:32,781] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:13:33,058] {logging_mixin.py:115} INFO - [2025-02-16 09:13:33,058] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:13:33,058] {logging_mixin.py:115} INFO - [2025-02-16 09:13:33,058] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:13:33,288] {logging_mixin.py:115} INFO - [2025-02-16 09:13:33,286] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:13:33,288] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:13:33,316] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.539 seconds
+[2025-02-16 09:14:05,114] {processor.py:153} INFO - Started process (PID=12336) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:14:05,115] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:14:05,116] {logging_mixin.py:115} INFO - [2025-02-16 09:14:05,116] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:14:05,318] {logging_mixin.py:115} INFO - [2025-02-16 09:14:05,318] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:14:05,318] {logging_mixin.py:115} INFO - [2025-02-16 09:14:05,318] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:14:05,457] {logging_mixin.py:115} INFO - [2025-02-16 09:14:05,456] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:14:05,457] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:14:05,481] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.370 seconds
+[2025-02-16 09:14:41,625] {processor.py:153} INFO - Started process (PID=12414) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:14:41,627] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:14:41,627] {logging_mixin.py:115} INFO - [2025-02-16 09:14:41,627] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:14:41,797] {logging_mixin.py:115} INFO - [2025-02-16 09:14:41,797] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:14:41,797] {logging_mixin.py:115} INFO - [2025-02-16 09:14:41,797] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:14:41,936] {logging_mixin.py:115} INFO - [2025-02-16 09:14:41,935] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:14:41,937] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:14:41,961] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.339 seconds
+[2025-02-16 09:15:15,198] {processor.py:153} INFO - Started process (PID=12471) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:15:15,198] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:15:15,199] {logging_mixin.py:115} INFO - [2025-02-16 09:15:15,199] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:15:15,373] {logging_mixin.py:115} INFO - [2025-02-16 09:15:15,373] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:15:15,373] {logging_mixin.py:115} INFO - [2025-02-16 09:15:15,373] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:15:15,510] {logging_mixin.py:115} INFO - [2025-02-16 09:15:15,509] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:15:15,510] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:15:15,532] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.338 seconds
+[2025-02-16 09:15:53,584] {processor.py:153} INFO - Started process (PID=12533) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:15:53,585] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:15:53,585] {logging_mixin.py:115} INFO - [2025-02-16 09:15:53,585] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:15:53,767] {logging_mixin.py:115} INFO - [2025-02-16 09:15:53,767] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:15:53,767] {logging_mixin.py:115} INFO - [2025-02-16 09:15:53,767] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:15:53,904] {logging_mixin.py:115} INFO - [2025-02-16 09:15:53,903] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:15:53,904] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:15:53,927] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.346 seconds
+[2025-02-16 09:16:31,857] {processor.py:153} INFO - Started process (PID=12595) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:16:31,858] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:16:31,859] {logging_mixin.py:115} INFO - [2025-02-16 09:16:31,859] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:16:32,028] {logging_mixin.py:115} INFO - [2025-02-16 09:16:32,028] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:16:32,028] {logging_mixin.py:115} INFO - [2025-02-16 09:16:32,028] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:16:32,164] {logging_mixin.py:115} INFO - [2025-02-16 09:16:32,162] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:16:32,164] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:16:32,187] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.332 seconds
+[2025-02-16 09:17:13,313] {processor.py:153} INFO - Started process (PID=12666) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:17:13,315] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:17:13,315] {logging_mixin.py:115} INFO - [2025-02-16 09:17:13,315] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:17:13,484] {logging_mixin.py:115} INFO - [2025-02-16 09:17:13,484] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:17:13,484] {logging_mixin.py:115} INFO - [2025-02-16 09:17:13,484] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:17:13,621] {logging_mixin.py:115} INFO - [2025-02-16 09:17:13,620] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:17:13,621] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:17:13,644] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.333 seconds
+[2025-02-16 09:17:48,569] {processor.py:153} INFO - Started process (PID=12731) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:17:48,571] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:17:48,571] {logging_mixin.py:115} INFO - [2025-02-16 09:17:48,571] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:17:48,740] {logging_mixin.py:115} INFO - [2025-02-16 09:17:48,740] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:17:48,740] {logging_mixin.py:115} INFO - [2025-02-16 09:17:48,740] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:17:48,878] {logging_mixin.py:115} INFO - [2025-02-16 09:17:48,877] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:17:48,878] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:17:48,901] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.335 seconds
+[2025-02-16 09:18:21,890] {processor.py:153} INFO - Started process (PID=12791) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:18:21,895] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:18:21,895] {logging_mixin.py:115} INFO - [2025-02-16 09:18:21,895] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:18:22,083] {logging_mixin.py:115} INFO - [2025-02-16 09:18:22,083] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:18:22,083] {logging_mixin.py:115} INFO - [2025-02-16 09:18:22,083] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:18:22,219] {logging_mixin.py:115} INFO - [2025-02-16 09:18:22,218] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:18:22,219] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:18:22,253] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.366 seconds
+[2025-02-16 09:19:02,668] {processor.py:153} INFO - Started process (PID=12872) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:19:02,670] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:19:02,670] {logging_mixin.py:115} INFO - [2025-02-16 09:19:02,670] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:19:02,840] {logging_mixin.py:115} INFO - [2025-02-16 09:19:02,840] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:19:02,840] {logging_mixin.py:115} INFO - [2025-02-16 09:19:02,840] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:19:02,978] {logging_mixin.py:115} INFO - [2025-02-16 09:19:02,977] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:19:02,978] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:19:03,001] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.336 seconds
+[2025-02-16 09:19:37,497] {processor.py:153} INFO - Started process (PID=12929) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:19:37,498] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:19:37,499] {logging_mixin.py:115} INFO - [2025-02-16 09:19:37,499] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:19:37,687] {logging_mixin.py:115} INFO - [2025-02-16 09:19:37,687] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:19:37,687] {logging_mixin.py:115} INFO - [2025-02-16 09:19:37,687] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:19:37,822] {logging_mixin.py:115} INFO - [2025-02-16 09:19:37,821] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:19:37,823] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:19:37,845] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.351 seconds
+[2025-02-16 09:20:11,734] {processor.py:153} INFO - Started process (PID=12985) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:20:11,734] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:20:11,734] {logging_mixin.py:115} INFO - [2025-02-16 09:20:11,734] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:20:11,911] {logging_mixin.py:115} INFO - [2025-02-16 09:20:11,910] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:20:11,911] {logging_mixin.py:115} INFO - [2025-02-16 09:20:11,911] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:20:12,048] {logging_mixin.py:115} INFO - [2025-02-16 09:20:12,047] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:20:12,049] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:20:12,071] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.341 seconds
+[2025-02-16 09:20:46,614] {processor.py:153} INFO - Started process (PID=13043) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:20:46,615] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:20:46,615] {logging_mixin.py:115} INFO - [2025-02-16 09:20:46,615] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:20:46,787] {logging_mixin.py:115} INFO - [2025-02-16 09:20:46,787] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:20:46,787] {logging_mixin.py:115} INFO - [2025-02-16 09:20:46,787] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:20:46,924] {logging_mixin.py:115} INFO - [2025-02-16 09:20:46,922] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:20:46,924] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:20:47,005] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.395 seconds
+[2025-02-16 09:21:19,692] {processor.py:153} INFO - Started process (PID=13102) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:21:19,694] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:21:19,694] {logging_mixin.py:115} INFO - [2025-02-16 09:21:19,694] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:21:19,884] {logging_mixin.py:115} INFO - [2025-02-16 09:21:19,884] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:21:19,884] {logging_mixin.py:115} INFO - [2025-02-16 09:21:19,884] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:21:20,022] {logging_mixin.py:115} INFO - [2025-02-16 09:21:20,021] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:21:20,022] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:21:20,048] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.359 seconds
+[2025-02-16 09:21:51,545] {processor.py:153} INFO - Started process (PID=13156) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:21:51,546] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:21:51,546] {logging_mixin.py:115} INFO - [2025-02-16 09:21:51,546] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:21:51,738] {logging_mixin.py:115} INFO - [2025-02-16 09:21:51,738] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:21:51,738] {logging_mixin.py:115} INFO - [2025-02-16 09:21:51,738] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:21:51,879] {logging_mixin.py:115} INFO - [2025-02-16 09:21:51,878] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:21:51,879] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:21:51,972] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.431 seconds
+[2025-02-16 09:23:01,241] {processor.py:153} INFO - Started process (PID=13244) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:23:01,243] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:23:01,244] {logging_mixin.py:115} INFO - [2025-02-16 09:23:01,244] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:23:01,430] {logging_mixin.py:115} INFO - [2025-02-16 09:23:01,430] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:23:01,430] {logging_mixin.py:115} INFO - [2025-02-16 09:23:01,430] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:23:01,571] {logging_mixin.py:115} INFO - [2025-02-16 09:23:01,570] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:23:01,571] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:23:01,596] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.357 seconds
+[2025-02-16 09:23:22,781] {processor.py:153} INFO - Started process (PID=13336) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:23:22,782] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:23:22,782] {logging_mixin.py:115} INFO - [2025-02-16 09:23:22,782] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:23:22,951] {logging_mixin.py:115} INFO - [2025-02-16 09:23:22,951] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:23:22,951] {logging_mixin.py:115} INFO - [2025-02-16 09:23:22,951] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:23:23,089] {logging_mixin.py:115} INFO - [2025-02-16 09:23:23,088] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:23:23,089] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:23:23,112] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.333 seconds
+[2025-02-16 09:23:40,301] {processor.py:153} INFO - Started process (PID=13395) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:23:40,303] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:23:40,303] {logging_mixin.py:115} INFO - [2025-02-16 09:23:40,303] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:23:40,529] {logging_mixin.py:115} INFO - [2025-02-16 09:23:40,529] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:23:40,529] {logging_mixin.py:115} INFO - [2025-02-16 09:23:40,529] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:23:40,683] {logging_mixin.py:115} INFO - [2025-02-16 09:23:40,681] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:23:40,683] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:23:40,706] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.408 seconds
+[2025-02-16 09:24:02,018] {processor.py:153} INFO - Started process (PID=13462) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:24:02,018] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:24:02,019] {logging_mixin.py:115} INFO - [2025-02-16 09:24:02,018] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:24:02,188] {logging_mixin.py:115} INFO - [2025-02-16 09:24:02,188] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:24:02,188] {logging_mixin.py:115} INFO - [2025-02-16 09:24:02,188] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:24:02,324] {logging_mixin.py:115} INFO - [2025-02-16 09:24:02,323] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:24:02,325] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:24:02,347] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.333 seconds
+[2025-02-16 09:24:20,505] {processor.py:153} INFO - Started process (PID=13544) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:24:20,506] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:24:20,507] {logging_mixin.py:115} INFO - [2025-02-16 09:24:20,506] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:24:20,676] {logging_mixin.py:115} INFO - [2025-02-16 09:24:20,676] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:24:20,676] {logging_mixin.py:115} INFO - [2025-02-16 09:24:20,676] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:24:20,813] {logging_mixin.py:115} INFO - [2025-02-16 09:24:20,812] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:24:20,813] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:24:20,839] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.337 seconds
+[2025-02-16 09:24:21,733] {processor.py:153} INFO - Started process (PID=13555) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:24:21,734] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:24:21,734] {logging_mixin.py:115} INFO - [2025-02-16 09:24:21,734] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:24:21,902] {logging_mixin.py:115} INFO - [2025-02-16 09:24:21,902] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:24:21,902] {logging_mixin.py:115} INFO - [2025-02-16 09:24:21,902] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:24:22,040] {logging_mixin.py:115} INFO - [2025-02-16 09:24:22,039] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:24:22,041] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:24:22,064] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.334 seconds
+[2025-02-16 09:24:34,806] {processor.py:153} INFO - Started process (PID=13626) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:24:34,806] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:24:34,806] {logging_mixin.py:115} INFO - [2025-02-16 09:24:34,806] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:24:34,976] {logging_mixin.py:115} INFO - [2025-02-16 09:24:34,976] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:24:34,976] {logging_mixin.py:115} INFO - [2025-02-16 09:24:34,976] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:24:35,117] {logging_mixin.py:115} INFO - [2025-02-16 09:24:35,115] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:24:35,117] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:24:35,473] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.670 seconds
+[2025-02-16 09:24:54,857] {processor.py:153} INFO - Started process (PID=13710) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:24:54,857] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:24:54,858] {logging_mixin.py:115} INFO - [2025-02-16 09:24:54,858] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:24:55,043] {logging_mixin.py:115} INFO - [2025-02-16 09:24:55,043] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:24:55,043] {logging_mixin.py:115} INFO - [2025-02-16 09:24:55,043] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:24:55,182] {logging_mixin.py:115} INFO - [2025-02-16 09:24:55,181] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:24:55,182] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:24:55,205] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.352 seconds
+[2025-02-16 09:24:59,969] {processor.py:153} INFO - Started process (PID=13747) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:24:59,970] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:24:59,970] {logging_mixin.py:115} INFO - [2025-02-16 09:24:59,970] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:25:00,143] {logging_mixin.py:115} INFO - [2025-02-16 09:25:00,143] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:25:00,144] {logging_mixin.py:115} INFO - [2025-02-16 09:25:00,144] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:25:00,283] {logging_mixin.py:115} INFO - [2025-02-16 09:25:00,282] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:25:00,283] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:25:00,306] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.341 seconds
+[2025-02-16 09:25:09,644] {processor.py:153} INFO - Started process (PID=13797) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:25:09,645] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:25:09,645] {logging_mixin.py:115} INFO - [2025-02-16 09:25:09,645] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:25:09,872] {logging_mixin.py:115} INFO - [2025-02-16 09:25:09,872] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:25:09,872] {logging_mixin.py:115} INFO - [2025-02-16 09:25:09,872] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:25:10,008] {logging_mixin.py:115} INFO - [2025-02-16 09:25:10,007] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:25:10,008] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:25:10,030] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.389 seconds
+[2025-02-16 09:25:23,168] {processor.py:153} INFO - Started process (PID=13838) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:25:23,169] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-16 09:25:23,169] {logging_mixin.py:115} INFO - [2025-02-16 09:25:23,169] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:25:23,337] {logging_mixin.py:115} INFO - [2025-02-16 09:25:23,337] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-16 09:25:23,337] {logging_mixin.py:115} INFO - [2025-02-16 09:25:23,337] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-16 09:25:23,474] {logging_mixin.py:115} INFO - [2025-02-16 09:25:23,473] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 12, in <module>
+    from mapping.city_tier_mapping import city_tier_mapping
+ModuleNotFoundError: No module named 'mapping.city_tier_mapping'
+[2025-02-16 09:25:23,474] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-16 09:25:23,497] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.332 seconds
