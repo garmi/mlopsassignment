@@ -1,0 +1,162 @@
+[2025-02-22 09:46:45,454] {processor.py:153} INFO - Started process (PID=12455) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:46:45,454] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-22 09:46:45,454] {logging_mixin.py:115} INFO - [2025-02-22 09:46:45,454] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:46:45,761] {logging_mixin.py:115} INFO - [2025-02-22 09:46:45,761] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:46:45,762] {logging_mixin.py:115} INFO - [2025-02-22 09:46:45,762] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:46:45,892] {logging_mixin.py:115} INFO - [2025-02-22 09:46:45,892] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 13, in <module>
+    from mapping.significant_categorical_level import list_platform, list_medium, list_source
+ModuleNotFoundError: No module named 'mapping.significant_categorical_level'
+[2025-02-22 09:46:45,893] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:46:45,914] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.463 seconds
+[2025-02-22 09:47:36,120] {processor.py:153} INFO - Started process (PID=12628) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:47:36,121] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-22 09:47:36,122] {logging_mixin.py:115} INFO - [2025-02-22 09:47:36,121] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:47:36,411] {logging_mixin.py:115} INFO - [2025-02-22 09:47:36,411] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:47:36,412] {logging_mixin.py:115} INFO - [2025-02-22 09:47:36,412] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:47:36,542] {logging_mixin.py:115} INFO - [2025-02-22 09:47:36,541] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 13, in <module>
+    from mapping.significant_categorical_level import list_platform, list_medium, list_source
+ModuleNotFoundError: No module named 'mapping.significant_categorical_level'
+[2025-02-22 09:47:36,542] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:47:36,587] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.471 seconds
+[2025-02-22 09:48:14,923] {processor.py:153} INFO - Started process (PID=12753) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:48:14,924] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-22 09:48:14,924] {logging_mixin.py:115} INFO - [2025-02-22 09:48:14,924] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:48:15,196] {logging_mixin.py:115} INFO - [2025-02-22 09:48:15,196] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:48:15,196] {logging_mixin.py:115} INFO - [2025-02-22 09:48:15,196] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:48:15,326] {logging_mixin.py:115} INFO - [2025-02-22 09:48:15,325] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 13, in <module>
+    from mapping.significant_categorical_level import list_platform, list_medium, list_source
+ModuleNotFoundError: No module named 'mapping.significant_categorical_level'
+[2025-02-22 09:48:15,326] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:48:15,346] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.427 seconds
+[2025-02-22 09:48:50,062] {processor.py:153} INFO - Started process (PID=12867) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:48:50,064] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-22 09:48:50,064] {logging_mixin.py:115} INFO - [2025-02-22 09:48:50,064] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:48:50,331] {logging_mixin.py:115} INFO - [2025-02-22 09:48:50,331] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:48:50,331] {logging_mixin.py:115} INFO - [2025-02-22 09:48:50,331] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:48:50,459] {logging_mixin.py:115} INFO - [2025-02-22 09:48:50,459] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py", line 13, in <module>
+    from mapping.significant_categorical_level import list_platform, list_medium, list_source
+ModuleNotFoundError: No module named 'mapping.significant_categorical_level'
+[2025-02-22 09:48:50,459] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:48:50,479] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.420 seconds
+[2025-02-22 09:49:33,776] {processor.py:153} INFO - Started process (PID=12997) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:49:33,777] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-22 09:49:33,777] {logging_mixin.py:115} INFO - [2025-02-22 09:49:33,777] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:49:34,038] {logging_mixin.py:115} INFO - [2025-02-22 09:49:34,038] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:49:34,038] {logging_mixin.py:115} INFO - [2025-02-22 09:49:34,038] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:49:34,167] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:49:34,184] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.411 seconds
+[2025-02-22 09:50:08,314] {processor.py:153} INFO - Started process (PID=13129) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:50:08,316] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-22 09:50:08,316] {logging_mixin.py:115} INFO - [2025-02-22 09:50:08,316] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:50:08,581] {logging_mixin.py:115} INFO - [2025-02-22 09:50:08,581] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:50:08,581] {logging_mixin.py:115} INFO - [2025-02-22 09:50:08,581] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:50:08,711] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:50:08,716] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.405 seconds
+[2025-02-22 09:50:43,148] {processor.py:153} INFO - Started process (PID=13255) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:50:43,149] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-22 09:50:43,150] {logging_mixin.py:115} INFO - [2025-02-22 09:50:43,150] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:50:43,428] {logging_mixin.py:115} INFO - [2025-02-22 09:50:43,428] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:50:43,428] {logging_mixin.py:115} INFO - [2025-02-22 09:50:43,428] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:50:43,554] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:50:43,559] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.415 seconds
+[2025-02-22 09:51:27,162] {processor.py:153} INFO - Started process (PID=13391) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:51:27,163] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-22 09:51:27,164] {logging_mixin.py:115} INFO - [2025-02-22 09:51:27,164] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:51:27,438] {logging_mixin.py:115} INFO - [2025-02-22 09:51:27,438] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:51:27,438] {logging_mixin.py:115} INFO - [2025-02-22 09:51:27,438] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:51:27,566] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:51:27,572] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.413 seconds
+[2025-02-22 09:52:09,152] {processor.py:153} INFO - Started process (PID=13542) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:52:09,153] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-22 09:52:09,154] {logging_mixin.py:115} INFO - [2025-02-22 09:52:09,154] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:52:09,317] {logging_mixin.py:115} INFO - [2025-02-22 09:52:09,317] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:52:09,318] {logging_mixin.py:115} INFO - [2025-02-22 09:52:09,318] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:52:09,445] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:52:09,452] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.303 seconds
+[2025-02-22 09:52:49,888] {processor.py:153} INFO - Started process (PID=13676) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:52:49,890] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-22 09:52:49,890] {logging_mixin.py:115} INFO - [2025-02-22 09:52:49,890] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:52:50,056] {logging_mixin.py:115} INFO - [2025-02-22 09:52:50,056] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:52:50,059] {logging_mixin.py:115} INFO - [2025-02-22 09:52:50,059] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:52:50,188] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:52:50,194] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.309 seconds
+[2025-02-22 09:53:23,606] {processor.py:153} INFO - Started process (PID=13792) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:53:23,608] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-22 09:53:23,608] {logging_mixin.py:115} INFO - [2025-02-22 09:53:23,608] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:53:23,779] {logging_mixin.py:115} INFO - [2025-02-22 09:53:23,779] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:53:23,779] {logging_mixin.py:115} INFO - [2025-02-22 09:53:23,779] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:53:23,909] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:53:23,916] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.313 seconds
+[2025-02-22 09:53:56,455] {processor.py:153} INFO - Started process (PID=13910) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:53:56,457] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-22 09:53:56,457] {logging_mixin.py:115} INFO - [2025-02-22 09:53:56,457] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:53:56,626] {logging_mixin.py:115} INFO - [2025-02-22 09:53:56,626] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:53:56,626] {logging_mixin.py:115} INFO - [2025-02-22 09:53:56,626] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:53:56,755] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:53:56,761] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.309 seconds
+[2025-02-22 09:54:30,831] {processor.py:153} INFO - Started process (PID=14025) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:54:30,833] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-22 09:54:30,833] {logging_mixin.py:115} INFO - [2025-02-22 09:54:30,833] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:54:30,996] {logging_mixin.py:115} INFO - [2025-02-22 09:54:30,996] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:54:30,996] {logging_mixin.py:115} INFO - [2025-02-22 09:54:30,996] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:54:31,123] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:54:31,130] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.302 seconds
+[2025-02-22 09:55:08,659] {processor.py:153} INFO - Started process (PID=14143) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:55:08,660] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-22 09:55:08,661] {logging_mixin.py:115} INFO - [2025-02-22 09:55:08,661] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:55:08,851] {logging_mixin.py:115} INFO - [2025-02-22 09:55:08,851] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:55:08,851] {logging_mixin.py:115} INFO - [2025-02-22 09:55:08,851] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:55:08,981] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:55:08,987] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.332 seconds
+[2025-02-22 09:55:50,659] {processor.py:153} INFO - Started process (PID=14294) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:55:50,661] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-22 09:55:50,661] {logging_mixin.py:115} INFO - [2025-02-22 09:55:50,661] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:55:50,858] {logging_mixin.py:115} INFO - [2025-02-22 09:55:50,858] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:55:50,858] {logging_mixin.py:115} INFO - [2025-02-22 09:55:50,858] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:55:50,986] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:55:50,993] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.337 seconds
+[2025-02-22 09:56:27,128] {processor.py:153} INFO - Started process (PID=14410) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:56:27,129] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-22 09:56:27,130] {logging_mixin.py:115} INFO - [2025-02-22 09:56:27,129] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:56:27,294] {logging_mixin.py:115} INFO - [2025-02-22 09:56:27,294] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:56:27,295] {logging_mixin.py:115} INFO - [2025-02-22 09:56:27,294] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:56:27,422] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:56:27,429] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.305 seconds
+[2025-02-22 09:56:59,415] {processor.py:153} INFO - Started process (PID=14521) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:56:59,417] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-22 09:56:59,417] {logging_mixin.py:115} INFO - [2025-02-22 09:56:59,417] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:56:59,626] {logging_mixin.py:115} INFO - [2025-02-22 09:56:59,626] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:56:59,626] {logging_mixin.py:115} INFO - [2025-02-22 09:56:59,626] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:56:59,757] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:56:59,764] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.352 seconds
+[2025-02-22 09:57:33,587] {processor.py:153} INFO - Started process (PID=14634) to work on /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:57:33,589] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py for tasks to queue
+[2025-02-22 09:57:33,589] {logging_mixin.py:115} INFO - [2025-02-22 09:57:33,589] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:57:33,786] {logging_mixin.py:115} INFO - [2025-02-22 09:57:33,786] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:57:33,787] {logging_mixin.py:115} INFO - [2025-02-22 09:57:33,787] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:57:33,915] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py
+[2025-02-22 09:57:33,922] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/.ipynb_checkpoints/utils-checkpoint.py took 0.338 seconds

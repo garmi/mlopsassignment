@@ -17,3 +17,12 @@
 2025-02-16 09:22:11,414 INFO - Sending the signal Signals.SIGTERM to group 10269
 2025-02-16 09:22:11,414 INFO - Sending the signal Signals.SIGTERM to process 10269 as process group is missing.
 2025-02-16 09:22:11,414 INFO - Exited execute loop
+2025-02-22 09:46:43,717 INFO - Starting the scheduler
+2025-02-22 09:46:43,718 INFO - Processing each file at most -1 times
+2025-02-22 09:46:43,720 INFO - Loaded executor: SequentialExecutor
+2025-02-22 09:46:43,726 INFO - Launched DagFileProcessorManager with pid: 12437
+2025-02-22 09:46:43,727 INFO - Resetting orphaned tasks for active dag runs
+2025-02-22 09:46:43,732 INFO - Configured default timezone Timezone('UTC')
+2025-02-22 09:46:43,736 INFO - Marked 4 SchedulerJob instances as failed
+2025-02-22 09:51:43,864 INFO - Resetting orphaned tasks for active dag runs
+2025-02-22 09:56:44,065 INFO - Resetting orphaned tasks for active dag runs

@@ -1,0 +1,90 @@
+[2025-02-22 09:47:05,412] {processor.py:153} INFO - Started process (PID=12542) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:47:05,413] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2025-02-22 09:47:05,413] {logging_mixin.py:115} INFO - [2025-02-22 09:47:05,413] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:47:05,562] {logging_mixin.py:115} INFO - [2025-02-22 09:47:05,562] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-22 09:47:05,562] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:47:05,567] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.159 seconds
+[2025-02-22 09:47:54,810] {processor.py:153} INFO - Started process (PID=12694) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:47:54,812] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2025-02-22 09:47:54,813] {logging_mixin.py:115} INFO - [2025-02-22 09:47:54,813] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:47:54,949] {logging_mixin.py:115} INFO - [2025-02-22 09:47:54,949] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-22 09:47:54,949] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:47:54,955] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.147 seconds
+[2025-02-22 09:48:41,907] {processor.py:153} INFO - Started process (PID=12835) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:48:41,909] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2025-02-22 09:48:41,909] {logging_mixin.py:115} INFO - [2025-02-22 09:48:41,909] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:48:42,037] {logging_mixin.py:115} INFO - [2025-02-22 09:48:42,037] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-22 09:48:42,037] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:48:42,043] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.139 seconds
+[2025-02-22 09:49:25,867] {processor.py:153} INFO - Started process (PID=12975) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:49:25,869] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2025-02-22 09:49:25,870] {logging_mixin.py:115} INFO - [2025-02-22 09:49:25,869] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:49:25,991] {logging_mixin.py:115} INFO - [2025-02-22 09:49:25,991] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-22 09:49:25,991] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:49:25,996] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.132 seconds
+[2025-02-22 09:50:18,911] {processor.py:153} INFO - Started process (PID=13173) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:50:18,913] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2025-02-22 09:50:18,913] {logging_mixin.py:115} INFO - [2025-02-22 09:50:18,913] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:50:19,038] {logging_mixin.py:115} INFO - [2025-02-22 09:50:19,038] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-22 09:50:19,039] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:50:19,044] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.137 seconds
+[2025-02-22 09:51:03,071] {processor.py:153} INFO - Started process (PID=13332) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:51:03,073] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2025-02-22 09:51:03,073] {logging_mixin.py:115} INFO - [2025-02-22 09:51:03,073] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:51:03,223] {logging_mixin.py:115} INFO - [2025-02-22 09:51:03,223] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-22 09:51:03,223] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:51:03,230] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.162 seconds
+[2025-02-22 09:51:48,039] {processor.py:153} INFO - Started process (PID=13473) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:51:48,041] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2025-02-22 09:51:48,042] {logging_mixin.py:115} INFO - [2025-02-22 09:51:48,042] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:51:48,058] {logging_mixin.py:115} INFO - [2025-02-22 09:51:48,058] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-22 09:51:48,058] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:51:48,069] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.032 seconds
+[2025-02-22 09:52:29,059] {processor.py:153} INFO - Started process (PID=13610) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:52:29,061] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2025-02-22 09:52:29,062] {logging_mixin.py:115} INFO - [2025-02-22 09:52:29,062] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:52:29,078] {logging_mixin.py:115} INFO - [2025-02-22 09:52:29,078] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-22 09:52:29,078] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:52:29,089] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.033 seconds
+[2025-02-22 09:53:07,430] {processor.py:153} INFO - Started process (PID=13734) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:53:07,432] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2025-02-22 09:53:07,432] {logging_mixin.py:115} INFO - [2025-02-22 09:53:07,432] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:53:07,447] {logging_mixin.py:115} INFO - [2025-02-22 09:53:07,447] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-22 09:53:07,447] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:53:07,457] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.030 seconds
+[2025-02-22 09:53:51,010] {processor.py:153} INFO - Started process (PID=13884) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:53:51,012] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2025-02-22 09:53:51,012] {logging_mixin.py:115} INFO - [2025-02-22 09:53:51,012] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:53:51,027] {logging_mixin.py:115} INFO - [2025-02-22 09:53:51,027] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-22 09:53:51,027] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:53:51,036] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.030 seconds
+[2025-02-22 09:54:36,634] {processor.py:153} INFO - Started process (PID=14043) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:54:36,636] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2025-02-22 09:54:36,636] {logging_mixin.py:115} INFO - [2025-02-22 09:54:36,636] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:54:36,651] {logging_mixin.py:115} INFO - [2025-02-22 09:54:36,651] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-22 09:54:36,651] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:54:36,660] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.030 seconds
+[2025-02-22 09:55:14,151] {processor.py:153} INFO - Started process (PID=14161) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:55:14,152] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2025-02-22 09:55:14,153] {logging_mixin.py:115} INFO - [2025-02-22 09:55:14,153] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:55:14,168] {logging_mixin.py:115} INFO - [2025-02-22 09:55:14,168] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-22 09:55:14,168] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:55:14,177] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.029 seconds
+[2025-02-22 09:55:56,155] {processor.py:153} INFO - Started process (PID=14328) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:55:56,158] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2025-02-22 09:55:56,158] {logging_mixin.py:115} INFO - [2025-02-22 09:55:56,158] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:55:56,174] {logging_mixin.py:115} INFO - [2025-02-22 09:55:56,174] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-22 09:55:56,175] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:55:56,185] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.033 seconds
+[2025-02-22 09:56:40,067] {processor.py:153} INFO - Started process (PID=14469) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:56:40,069] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2025-02-22 09:56:40,070] {logging_mixin.py:115} INFO - [2025-02-22 09:56:40,070] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:56:40,085] {logging_mixin.py:115} INFO - [2025-02-22 09:56:40,085] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-22 09:56:40,085] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:56:40,094] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.030 seconds
+[2025-02-22 09:57:25,447] {processor.py:153} INFO - Started process (PID=14603) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:57:25,449] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2025-02-22 09:57:25,450] {logging_mixin.py:115} INFO - [2025-02-22 09:57:25,449] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:57:25,465] {logging_mixin.py:115} INFO - [2025-02-22 09:57:25,465] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-22 09:57:25,466] {processor.py:653} WARNING - No viable dags retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2025-02-22 09:57:25,476] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.033 seconds

@@ -1,0 +1,256 @@
+[2025-02-22 09:46:46,995] {processor.py:153} INFO - Started process (PID=12477) to work on /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:46:46,995] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-22 09:46:46,996] {logging_mixin.py:115} INFO - [2025-02-22 09:46:46,996] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:46:47,264] {logging_mixin.py:115} INFO - [2025-02-22 09:46:47,264] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:46:47,264] {logging_mixin.py:115} INFO - [2025-02-22 09:46:47,264] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:46:47,393] {logging_mixin.py:115} INFO - [2025-02-22 09:46:47,393] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/lead_scoring_data_pipeline.py", line 6, in <module>
+    import utils
+  File "/home/Assignment/airflow/dags/utils.py", line 17, in <module>
+    from mapping.significant_categorical_level import list_platform, list_medium, list_source
+ModuleNotFoundError: No module named 'mapping.significant_categorical_level'
+[2025-02-22 09:46:47,393] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:46:47,420] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py took 0.428 seconds
+[2025-02-22 09:47:37,685] {processor.py:153} INFO - Started process (PID=12639) to work on /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:47:37,687] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-22 09:47:37,687] {logging_mixin.py:115} INFO - [2025-02-22 09:47:37,687] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:47:37,952] {logging_mixin.py:115} INFO - [2025-02-22 09:47:37,952] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:47:37,952] {logging_mixin.py:115} INFO - [2025-02-22 09:47:37,952] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:47:38,077] {logging_mixin.py:115} INFO - [2025-02-22 09:47:38,077] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/lead_scoring_data_pipeline.py", line 6, in <module>
+    import utils
+  File "/home/Assignment/airflow/dags/utils.py", line 17, in <module>
+    from mapping.significant_categorical_level import list_platform, list_medium, list_source
+ModuleNotFoundError: No module named 'mapping.significant_categorical_level'
+[2025-02-22 09:47:38,077] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:47:38,097] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py took 0.416 seconds
+[2025-02-22 09:48:15,755] {processor.py:153} INFO - Started process (PID=12763) to work on /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:48:15,757] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-22 09:48:15,757] {logging_mixin.py:115} INFO - [2025-02-22 09:48:15,757] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:48:16,035] {logging_mixin.py:115} INFO - [2025-02-22 09:48:16,035] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:48:16,035] {logging_mixin.py:115} INFO - [2025-02-22 09:48:16,035] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:48:16,165] {logging_mixin.py:115} INFO - [2025-02-22 09:48:16,165] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/lead_scoring_data_pipeline.py", line 6, in <module>
+    import utils
+  File "/home/Assignment/airflow/dags/utils.py", line 17, in <module>
+    from mapping.significant_categorical_level import list_platform, list_medium, list_source
+ModuleNotFoundError: No module named 'mapping.significant_categorical_level'
+[2025-02-22 09:48:16,166] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:48:16,185] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py took 0.433 seconds
+[2025-02-22 09:48:51,627] {processor.py:153} INFO - Started process (PID=12878) to work on /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:48:51,631] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-22 09:48:51,631] {logging_mixin.py:115} INFO - [2025-02-22 09:48:51,631] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:48:51,917] {logging_mixin.py:115} INFO - [2025-02-22 09:48:51,917] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:48:51,917] {logging_mixin.py:115} INFO - [2025-02-22 09:48:51,917] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:48:52,043] {logging_mixin.py:115} INFO - [2025-02-22 09:48:52,043] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/lead_scoring_data_pipeline.py", line 6, in <module>
+    import utils
+  File "/home/Assignment/airflow/dags/utils.py", line 17, in <module>
+    from mapping.significant_categorical_level import list_platform, list_medium, list_source
+ModuleNotFoundError: No module named 'mapping.significant_categorical_level'
+[2025-02-22 09:48:52,043] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:48:52,065] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py took 0.441 seconds
+[2025-02-22 09:49:35,344] {processor.py:153} INFO - Started process (PID=13007) to work on /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:49:35,346] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-22 09:49:35,346] {logging_mixin.py:115} INFO - [2025-02-22 09:49:35,346] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:49:35,641] {logging_mixin.py:115} INFO - [2025-02-22 09:49:35,641] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:49:35,641] {logging_mixin.py:115} INFO - [2025-02-22 09:49:35,641] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:49:35,769] {logging_mixin.py:115} INFO - [2025-02-22 09:49:35,769] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/lead_scoring_data_pipeline.py", line 23, in <module>
+    python_callable=utils.build_dbs,
+AttributeError: module 'utils' has no attribute 'build_dbs'
+[2025-02-22 09:49:35,769] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:49:35,788] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py took 0.448 seconds
+[2025-02-22 09:50:09,915] {processor.py:153} INFO - Started process (PID=13140) to work on /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:50:09,917] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-22 09:50:09,917] {logging_mixin.py:115} INFO - [2025-02-22 09:50:09,917] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:50:10,201] {logging_mixin.py:115} INFO - [2025-02-22 09:50:10,200] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:50:10,201] {logging_mixin.py:115} INFO - [2025-02-22 09:50:10,201] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:50:10,331] {logging_mixin.py:115} INFO - [2025-02-22 09:50:10,331] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/lead_scoring_data_pipeline.py", line 23, in <module>
+    python_callable=utils.build_dbs,
+AttributeError: module 'utils' has no attribute 'build_dbs'
+[2025-02-22 09:50:10,332] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:50:10,353] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py took 0.441 seconds
+[2025-02-22 09:50:44,715] {processor.py:153} INFO - Started process (PID=13266) to work on /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:50:44,717] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-22 09:50:44,717] {logging_mixin.py:115} INFO - [2025-02-22 09:50:44,717] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:50:44,987] {logging_mixin.py:115} INFO - [2025-02-22 09:50:44,987] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:50:44,987] {logging_mixin.py:115} INFO - [2025-02-22 09:50:44,987] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:50:45,119] {logging_mixin.py:115} INFO - [2025-02-22 09:50:45,118] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/lead_scoring_data_pipeline.py", line 23, in <module>
+    python_callable=utils.build_dbs,
+AttributeError: module 'utils' has no attribute 'build_dbs'
+[2025-02-22 09:50:45,119] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:50:45,407] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py took 0.695 seconds
+[2025-02-22 09:51:28,226] {processor.py:153} INFO - Started process (PID=13401) to work on /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:51:28,228] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-22 09:51:28,229] {logging_mixin.py:115} INFO - [2025-02-22 09:51:28,228] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:51:28,534] {logging_mixin.py:115} INFO - [2025-02-22 09:51:28,534] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:51:28,534] {logging_mixin.py:115} INFO - [2025-02-22 09:51:28,534] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:51:28,664] {logging_mixin.py:115} INFO - [2025-02-22 09:51:28,663] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/lead_scoring_data_pipeline.py", line 23, in <module>
+    python_callable=utils.build_dbs,
+AttributeError: module 'utils' has no attribute 'build_dbs'
+[2025-02-22 09:51:28,664] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:51:28,691] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py took 0.468 seconds
+[2025-02-22 09:52:10,411] {processor.py:153} INFO - Started process (PID=13552) to work on /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:52:10,413] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-22 09:52:10,413] {logging_mixin.py:115} INFO - [2025-02-22 09:52:10,413] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:52:10,590] {logging_mixin.py:115} INFO - [2025-02-22 09:52:10,590] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:52:10,590] {logging_mixin.py:115} INFO - [2025-02-22 09:52:10,590] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:52:10,728] {logging_mixin.py:115} INFO - [2025-02-22 09:52:10,727] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/lead_scoring_data_pipeline.py", line 23, in <module>
+    python_callable=utils.build_dbs,
+AttributeError: module 'utils' has no attribute 'build_dbs'
+[2025-02-22 09:52:10,728] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:52:10,749] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py took 0.342 seconds
+[2025-02-22 09:52:50,859] {processor.py:153} INFO - Started process (PID=13686) to work on /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:52:50,861] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-22 09:52:50,861] {logging_mixin.py:115} INFO - [2025-02-22 09:52:50,861] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:52:51,030] {logging_mixin.py:115} INFO - [2025-02-22 09:52:51,030] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:52:51,030] {logging_mixin.py:115} INFO - [2025-02-22 09:52:51,030] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:52:51,162] {logging_mixin.py:115} INFO - [2025-02-22 09:52:51,161] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/lead_scoring_data_pipeline.py", line 23, in <module>
+    python_callable=utils.build_dbs,
+AttributeError: module 'utils' has no attribute 'build_dbs'
+[2025-02-22 09:52:51,163] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:52:51,185] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py took 0.330 seconds
+[2025-02-22 09:53:25,103] {processor.py:153} INFO - Started process (PID=13803) to work on /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:53:25,105] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-22 09:53:25,106] {logging_mixin.py:115} INFO - [2025-02-22 09:53:25,106] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:53:25,275] {logging_mixin.py:115} INFO - [2025-02-22 09:53:25,275] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:53:25,275] {logging_mixin.py:115} INFO - [2025-02-22 09:53:25,275] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:53:25,407] {logging_mixin.py:115} INFO - [2025-02-22 09:53:25,406] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/lead_scoring_data_pipeline.py", line 23, in <module>
+    python_callable=utils.build_dbs,
+AttributeError: module 'utils' has no attribute 'build_dbs'
+[2025-02-22 09:53:25,407] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:53:25,428] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py took 0.328 seconds
+[2025-02-22 09:54:05,651] {processor.py:153} INFO - Started process (PID=13944) to work on /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:54:05,725] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-22 09:54:05,725] {logging_mixin.py:115} INFO - [2025-02-22 09:54:05,725] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:54:05,930] {logging_mixin.py:115} INFO - [2025-02-22 09:54:05,930] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:54:05,930] {logging_mixin.py:115} INFO - [2025-02-22 09:54:05,930] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:54:06,060] {logging_mixin.py:115} INFO - [2025-02-22 09:54:06,059] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/lead_scoring_data_pipeline.py", line 23, in <module>
+    python_callable=utils.build_dbs,
+AttributeError: module 'utils' has no attribute 'build_dbs'
+[2025-02-22 09:54:06,060] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:54:06,083] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py took 0.435 seconds
+[2025-02-22 09:54:41,964] {processor.py:153} INFO - Started process (PID=14061) to work on /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:54:41,966] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-22 09:54:41,967] {logging_mixin.py:115} INFO - [2025-02-22 09:54:41,966] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:54:42,131] {logging_mixin.py:115} INFO - [2025-02-22 09:54:42,131] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:54:42,131] {logging_mixin.py:115} INFO - [2025-02-22 09:54:42,131] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:54:42,261] {logging_mixin.py:115} INFO - [2025-02-22 09:54:42,260] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/lead_scoring_data_pipeline.py", line 23, in <module>
+    python_callable=utils.build_dbs,
+AttributeError: module 'utils' has no attribute 'build_dbs'
+[2025-02-22 09:54:42,261] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:54:42,283] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py took 0.322 seconds
+[2025-02-22 09:55:21,798] {processor.py:153} INFO - Started process (PID=14190) to work on /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:55:21,800] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-22 09:55:21,801] {logging_mixin.py:115} INFO - [2025-02-22 09:55:21,801] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:55:21,976] {logging_mixin.py:115} INFO - [2025-02-22 09:55:21,976] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:55:21,976] {logging_mixin.py:115} INFO - [2025-02-22 09:55:21,976] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:55:22,106] {processor.py:651} INFO - DAG(s) dict_keys(['lead_scoring_data_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:55:22,183] {logging_mixin.py:115} INFO - [2025-02-22 09:55:22,183] {manager.py:508} INFO - Created Permission View: can delete on DAG:lead_scoring_data_pipeline
+[2025-02-22 09:55:22,201] {logging_mixin.py:115} INFO - [2025-02-22 09:55:22,201] {manager.py:508} INFO - Created Permission View: can read on DAG:lead_scoring_data_pipeline
+[2025-02-22 09:55:22,217] {logging_mixin.py:115} INFO - [2025-02-22 09:55:22,217] {manager.py:508} INFO - Created Permission View: can edit on DAG:lead_scoring_data_pipeline
+[2025-02-22 09:55:22,217] {logging_mixin.py:115} INFO - [2025-02-22 09:55:22,217] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:55:22,223] {logging_mixin.py:115} INFO - [2025-02-22 09:55:22,222] {dag.py:2439} INFO - Creating ORM DAG for lead_scoring_data_pipeline
+[2025-02-22 09:55:22,230] {logging_mixin.py:115} INFO - [2025-02-22 09:55:22,230] {dag.py:2968} INFO - Setting next_dagrun for lead_scoring_data_pipeline to 2024-02-20T00:00:00+00:00, run_after=2024-02-21T00:00:00+00:00
+[2025-02-22 09:55:22,266] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py took 0.471 seconds
+[2025-02-22 09:56:01,359] {processor.py:153} INFO - Started process (PID=14338) to work on /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:56:01,361] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-22 09:56:01,362] {logging_mixin.py:115} INFO - [2025-02-22 09:56:01,361] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:56:01,534] {logging_mixin.py:115} INFO - [2025-02-22 09:56:01,534] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:56:01,534] {logging_mixin.py:115} INFO - [2025-02-22 09:56:01,534] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:56:01,667] {processor.py:651} INFO - DAG(s) dict_keys(['lead_scoring_data_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:56:01,677] {logging_mixin.py:115} INFO - [2025-02-22 09:56:01,676] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:56:01,690] {logging_mixin.py:115} INFO - [2025-02-22 09:56:01,690] {dag.py:2968} INFO - Setting next_dagrun for lead_scoring_data_pipeline to 2024-02-20T00:00:00+00:00, run_after=2024-02-21T00:00:00+00:00
+[2025-02-22 09:56:01,708] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py took 0.352 seconds
+[2025-02-22 09:56:37,205] {processor.py:153} INFO - Started process (PID=14454) to work on /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:56:37,207] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-22 09:56:37,207] {logging_mixin.py:115} INFO - [2025-02-22 09:56:37,207] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:56:37,379] {logging_mixin.py:115} INFO - [2025-02-22 09:56:37,378] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:56:37,379] {logging_mixin.py:115} INFO - [2025-02-22 09:56:37,379] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:56:37,515] {processor.py:651} INFO - DAG(s) dict_keys(['lead_scoring_data_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:56:37,525] {logging_mixin.py:115} INFO - [2025-02-22 09:56:37,525] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:56:37,539] {logging_mixin.py:115} INFO - [2025-02-22 09:56:37,539] {dag.py:2968} INFO - Setting next_dagrun for lead_scoring_data_pipeline to 2024-02-20T00:00:00+00:00, run_after=2024-02-21T00:00:00+00:00
+[2025-02-22 09:56:37,559] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py took 0.357 seconds
+[2025-02-22 09:57:08,831] {processor.py:153} INFO - Started process (PID=14561) to work on /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:57:08,833] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py for tasks to queue
+[2025-02-22 09:57:08,834] {logging_mixin.py:115} INFO - [2025-02-22 09:57:08,834] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:57:09,021] {logging_mixin.py:115} INFO - [2025-02-22 09:57:09,021] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:57:09,021] {logging_mixin.py:115} INFO - [2025-02-22 09:57:09,021] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:57:09,151] {processor.py:651} INFO - DAG(s) dict_keys(['lead_scoring_data_pipeline']) retrieved from /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py
+[2025-02-22 09:57:09,161] {logging_mixin.py:115} INFO - [2025-02-22 09:57:09,160] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:57:09,175] {logging_mixin.py:115} INFO - [2025-02-22 09:57:09,175] {dag.py:2968} INFO - Setting next_dagrun for lead_scoring_data_pipeline to 2024-02-20T00:00:00+00:00, run_after=2024-02-21T00:00:00+00:00
+[2025-02-22 09:57:09,194] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/lead_scoring_data_pipeline.py took 0.366 seconds

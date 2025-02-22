@@ -17,6 +17,52 @@ from mapping.city_tier_mapping import city_tier_mapping
 from mapping.significant_categorical_level import list_platform, list_medium, list_source
 
 ###############################################################################
+# Define function to initialize the database
+###############################################################################
+
+def build_dbs():
+    try:
+        db_full_path = os.path.join(DB_PATH, DB_FILE_NAME)
+        print("Initializing Database at:", db_full_path)
+        
+        conn = sqlite3.connect(db_full_path)
+        cursor = conn.cursor()
+        
+        # Create necessary tables if they do not exist
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS loaded_data (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                city_mapped TEXT,
+                first_platform_c TEXT,
+                first_utm_medium_c TEXT,
+                first_utm_source_c TEXT
+            )
+        ''')
+
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS city_tier_mapped (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                city_mapped TEXT,
+                city_tier INTEGER
+            )
+        ''')
+
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS categorical_variables_mapped (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                first_platform_c TEXT,
+                first_utm_medium_c TEXT,
+                first_utm_source_c TEXT
+            )
+        ''')
+        
+        conn.commit()
+        conn.close()
+        print("Database initialized successfully.")
+    except Exception as e:
+        print(f"Error in database initialization: {e}")
+
+###############################################################################
 # Define function to load the csv file to the database
 ###############################################################################
 
@@ -45,7 +91,7 @@ def load_data_into_db():
         tables = conn.execute("SELECT name FROM sqlite_master WHERE type='table';").fetchall()
         print("Tables after writing:", tables)
         
-        conn.commit()  # Force Commit
+        conn.commit()
         conn.close()
 
         print("Data successfully written to DB.")
@@ -64,7 +110,6 @@ def map_city_tier():
         
         conn = sqlite3.connect(db_full_path)
         
-        # Check if loaded_data table exists
         tables = conn.execute("SELECT name FROM sqlite_master WHERE type='table';").fetchall()
         table_names = [table[0] for table in tables]
         print("Existing Tables:", table_names)
@@ -77,14 +122,12 @@ def map_city_tier():
         df = pd.read_sql("SELECT * FROM loaded_data", conn)
         df["city_tier"] = df["city_mapped"].map(city_tier_mapping).fillna(3.0)
         
-        # Write to DB
         df.to_sql("city_tier_mapped", conn, if_exists="replace", index=False)
         
-        # Verify tables after writing
         tables = conn.execute("SELECT name FROM sqlite_master WHERE type='table';").fetchall()
         print("Tables after writing:", tables)
         
-        conn.commit()  # Force Commit
+        conn.commit()
         conn.close()
         
         print("City tier mapping applied successfully.")

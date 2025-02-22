@@ -1,0 +1,105 @@
+[2025-02-22 09:47:11,771] {processor.py:153} INFO - Started process (PID=12561) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:47:11,772] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-22 09:47:11,772] {logging_mixin.py:115} INFO - [2025-02-22 09:47:11,772] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:47:11,778] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:47:11,904] {logging_mixin.py:115} INFO - [2025-02-22 09:47:11,904] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:47:11,916] {logging_mixin.py:115} INFO - [2025-02-22 09:47:11,916] {dag.py:2968} INFO - Setting next_dagrun for example_skip_dag to 2025-02-21T09:47:11.916283+00:00, run_after=2025-02-22T09:47:11.916283+00:00
+[2025-02-22 09:47:12,314] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.546 seconds
+[2025-02-22 09:48:00,203] {processor.py:153} INFO - Started process (PID=12712) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:48:00,205] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-22 09:48:00,206] {logging_mixin.py:115} INFO - [2025-02-22 09:48:00,206] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:48:00,212] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:48:00,351] {logging_mixin.py:115} INFO - [2025-02-22 09:48:00,351] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:48:00,362] {logging_mixin.py:115} INFO - [2025-02-22 09:48:00,362] {dag.py:2968} INFO - Setting next_dagrun for example_skip_dag to 2025-02-21T09:48:00.362425+00:00, run_after=2025-02-22T09:48:00.362425+00:00
+[2025-02-22 09:48:00,703] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.503 seconds
+[2025-02-22 09:48:46,766] {processor.py:153} INFO - Started process (PID=12844) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:48:46,768] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-22 09:48:46,768] {logging_mixin.py:115} INFO - [2025-02-22 09:48:46,768] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:48:46,773] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:48:46,891] {logging_mixin.py:115} INFO - [2025-02-22 09:48:46,891] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:48:46,903] {logging_mixin.py:115} INFO - [2025-02-22 09:48:46,903] {dag.py:2968} INFO - Setting next_dagrun for example_skip_dag to 2025-02-21T09:48:46.902907+00:00, run_after=2025-02-22T09:48:46.902907+00:00
+[2025-02-22 09:48:46,927] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.164 seconds
+[2025-02-22 09:49:31,163] {processor.py:153} INFO - Started process (PID=12984) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:49:31,166] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-22 09:49:31,166] {logging_mixin.py:115} INFO - [2025-02-22 09:49:31,166] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:49:31,172] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:49:31,308] {logging_mixin.py:115} INFO - [2025-02-22 09:49:31,308] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:49:31,319] {logging_mixin.py:115} INFO - [2025-02-22 09:49:31,319] {dag.py:2968} INFO - Setting next_dagrun for example_skip_dag to 2025-02-21T09:49:31.318833+00:00, run_after=2025-02-22T09:49:31.318833+00:00
+[2025-02-22 09:49:31,339] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.179 seconds
+[2025-02-22 09:50:24,411] {processor.py:153} INFO - Started process (PID=13190) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:50:24,415] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-22 09:50:24,416] {logging_mixin.py:115} INFO - [2025-02-22 09:50:24,416] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:50:24,421] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:50:24,541] {logging_mixin.py:115} INFO - [2025-02-22 09:50:24,541] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:50:24,552] {logging_mixin.py:115} INFO - [2025-02-22 09:50:24,551] {dag.py:2968} INFO - Setting next_dagrun for example_skip_dag to 2025-02-21T09:50:24.551805+00:00, run_after=2025-02-22T09:50:24.551805+00:00
+[2025-02-22 09:50:24,572] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.164 seconds
+[2025-02-22 09:51:09,607] {processor.py:153} INFO - Started process (PID=13343) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:51:09,609] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-22 09:51:09,610] {logging_mixin.py:115} INFO - [2025-02-22 09:51:09,610] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:51:09,615] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:51:09,733] {logging_mixin.py:115} INFO - [2025-02-22 09:51:09,733] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:51:09,744] {logging_mixin.py:115} INFO - [2025-02-22 09:51:09,744] {dag.py:2968} INFO - Setting next_dagrun for example_skip_dag to 2025-02-21T09:51:09.744324+00:00, run_after=2025-02-22T09:51:09.744324+00:00
+[2025-02-22 09:51:09,764] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.160 seconds
+[2025-02-22 09:51:52,438] {processor.py:153} INFO - Started process (PID=13497) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:51:52,440] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-22 09:51:52,440] {logging_mixin.py:115} INFO - [2025-02-22 09:51:52,440] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:51:52,446] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:51:52,462] {logging_mixin.py:115} INFO - [2025-02-22 09:51:52,462] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:51:52,479] {logging_mixin.py:115} INFO - [2025-02-22 09:51:52,479] {dag.py:2968} INFO - Setting next_dagrun for example_skip_dag to 2025-02-21T09:51:52.479120+00:00, run_after=2025-02-22T09:51:52.479120+00:00
+[2025-02-22 09:51:52,501] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.066 seconds
+[2025-02-22 09:52:42,022] {processor.py:153} INFO - Started process (PID=13644) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:52:42,024] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-22 09:52:42,024] {logging_mixin.py:115} INFO - [2025-02-22 09:52:42,024] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:52:42,030] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:52:42,048] {logging_mixin.py:115} INFO - [2025-02-22 09:52:42,048] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:52:42,067] {logging_mixin.py:115} INFO - [2025-02-22 09:52:42,067] {dag.py:2968} INFO - Setting next_dagrun for example_skip_dag to 2025-02-21T09:52:42.066683+00:00, run_after=2025-02-22T09:52:42.066683+00:00
+[2025-02-22 09:52:42,092] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.073 seconds
+[2025-02-22 09:53:27,736] {processor.py:153} INFO - Started process (PID=13821) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:53:27,738] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-22 09:53:27,739] {logging_mixin.py:115} INFO - [2025-02-22 09:53:27,738] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:53:27,744] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:53:27,760] {logging_mixin.py:115} INFO - [2025-02-22 09:53:27,760] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:53:27,775] {logging_mixin.py:115} INFO - [2025-02-22 09:53:27,775] {dag.py:2968} INFO - Setting next_dagrun for example_skip_dag to 2025-02-21T09:53:27.774896+00:00, run_after=2025-02-22T09:53:27.774896+00:00
+[2025-02-22 09:53:27,796] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.063 seconds
+[2025-02-22 09:54:10,439] {processor.py:153} INFO - Started process (PID=13961) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:54:10,442] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-22 09:54:10,442] {logging_mixin.py:115} INFO - [2025-02-22 09:54:10,442] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:54:10,448] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:54:10,467] {logging_mixin.py:115} INFO - [2025-02-22 09:54:10,467] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:54:10,486] {logging_mixin.py:115} INFO - [2025-02-22 09:54:10,486] {dag.py:2968} INFO - Setting next_dagrun for example_skip_dag to 2025-02-21T09:54:10.485767+00:00, run_after=2025-02-22T09:54:10.485767+00:00
+[2025-02-22 09:54:10,730] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.295 seconds
+[2025-02-22 09:54:48,866] {processor.py:153} INFO - Started process (PID=14083) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:54:48,868] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-22 09:54:48,868] {logging_mixin.py:115} INFO - [2025-02-22 09:54:48,868] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:54:48,874] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:54:48,893] {logging_mixin.py:115} INFO - [2025-02-22 09:54:48,892] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:54:48,911] {logging_mixin.py:115} INFO - [2025-02-22 09:54:48,911] {dag.py:2968} INFO - Setting next_dagrun for example_skip_dag to 2025-02-21T09:54:48.911526+00:00, run_after=2025-02-22T09:54:48.911526+00:00
+[2025-02-22 09:54:48,937] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.075 seconds
+[2025-02-22 09:55:29,831] {processor.py:153} INFO - Started process (PID=14215) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:55:29,878] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-22 09:55:29,879] {logging_mixin.py:115} INFO - [2025-02-22 09:55:29,879] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:55:29,885] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:55:29,903] {logging_mixin.py:115} INFO - [2025-02-22 09:55:29,903] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:55:29,922] {logging_mixin.py:115} INFO - [2025-02-22 09:55:29,922] {dag.py:2968} INFO - Setting next_dagrun for example_skip_dag to 2025-02-21T09:55:29.922090+00:00, run_after=2025-02-22T09:55:29.922090+00:00
+[2025-02-22 09:55:29,965] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.137 seconds
+[2025-02-22 09:56:09,339] {processor.py:153} INFO - Started process (PID=14362) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:56:09,419] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-22 09:56:09,420] {logging_mixin.py:115} INFO - [2025-02-22 09:56:09,420] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:56:09,426] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:56:09,443] {logging_mixin.py:115} INFO - [2025-02-22 09:56:09,443] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:56:09,461] {logging_mixin.py:115} INFO - [2025-02-22 09:56:09,461] {dag.py:2968} INFO - Setting next_dagrun for example_skip_dag to 2025-02-21T09:56:09.460956+00:00, run_after=2025-02-22T09:56:09.460956+00:00
+[2025-02-22 09:56:09,485] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.149 seconds
+[2025-02-22 09:56:53,660] {processor.py:153} INFO - Started process (PID=14502) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:56:53,661] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-22 09:56:53,662] {logging_mixin.py:115} INFO - [2025-02-22 09:56:53,662] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:56:53,668] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:56:53,686] {logging_mixin.py:115} INFO - [2025-02-22 09:56:53,686] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:56:53,705] {logging_mixin.py:115} INFO - [2025-02-22 09:56:53,705] {dag.py:2968} INFO - Setting next_dagrun for example_skip_dag to 2025-02-21T09:56:53.705112+00:00, run_after=2025-02-22T09:56:53.705112+00:00
+[2025-02-22 09:56:53,730] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.074 seconds
+[2025-02-22 09:57:38,462] {processor.py:153} INFO - Started process (PID=14651) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:57:38,464] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-22 09:57:38,465] {logging_mixin.py:115} INFO - [2025-02-22 09:57:38,465] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:57:38,470] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-22 09:57:38,487] {logging_mixin.py:115} INFO - [2025-02-22 09:57:38,487] {dag.py:2420} INFO - Sync 1 DAGs
+[2025-02-22 09:57:38,506] {logging_mixin.py:115} INFO - [2025-02-22 09:57:38,506] {dag.py:2968} INFO - Setting next_dagrun for example_skip_dag to 2025-02-21T09:57:38.505750+00:00, run_after=2025-02-22T09:57:38.505750+00:00
+[2025-02-22 09:57:38,530] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.071 seconds

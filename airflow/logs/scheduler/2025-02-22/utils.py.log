@@ -1,0 +1,162 @@
+[2025-02-22 09:46:43,795] {processor.py:153} INFO - Started process (PID=12438) to work on /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:46:43,796] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/utils.py for tasks to queue
+[2025-02-22 09:46:43,796] {logging_mixin.py:115} INFO - [2025-02-22 09:46:43,796] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:46:44,066] {logging_mixin.py:115} INFO - [2025-02-22 09:46:44,066] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:46:44,066] {logging_mixin.py:115} INFO - [2025-02-22 09:46:44,066] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:46:44,199] {logging_mixin.py:115} INFO - [2025-02-22 09:46:44,198] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/utils.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/utils.py", line 17, in <module>
+    from mapping.significant_categorical_level import list_platform, list_medium, list_source
+ModuleNotFoundError: No module named 'mapping.significant_categorical_level'
+[2025-02-22 09:46:44,199] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:46:44,220] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/utils.py took 0.427 seconds
+[2025-02-22 09:47:34,519] {processor.py:153} INFO - Started process (PID=12618) to work on /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:47:34,521] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/utils.py for tasks to queue
+[2025-02-22 09:47:34,521] {logging_mixin.py:115} INFO - [2025-02-22 09:47:34,521] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:47:34,785] {logging_mixin.py:115} INFO - [2025-02-22 09:47:34,785] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:47:34,785] {logging_mixin.py:115} INFO - [2025-02-22 09:47:34,785] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:47:34,912] {logging_mixin.py:115} INFO - [2025-02-22 09:47:34,911] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/utils.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/utils.py", line 17, in <module>
+    from mapping.significant_categorical_level import list_platform, list_medium, list_source
+ModuleNotFoundError: No module named 'mapping.significant_categorical_level'
+[2025-02-22 09:47:34,912] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:47:34,933] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/utils.py took 0.417 seconds
+[2025-02-22 09:48:13,355] {processor.py:153} INFO - Started process (PID=12743) to work on /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:48:13,357] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/utils.py for tasks to queue
+[2025-02-22 09:48:13,357] {logging_mixin.py:115} INFO - [2025-02-22 09:48:13,357] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:48:13,633] {logging_mixin.py:115} INFO - [2025-02-22 09:48:13,633] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:48:13,634] {logging_mixin.py:115} INFO - [2025-02-22 09:48:13,634] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:48:13,759] {logging_mixin.py:115} INFO - [2025-02-22 09:48:13,759] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/utils.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/utils.py", line 17, in <module>
+    from mapping.significant_categorical_level import list_platform, list_medium, list_source
+ModuleNotFoundError: No module named 'mapping.significant_categorical_level'
+[2025-02-22 09:48:13,759] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:48:13,780] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/utils.py took 0.428 seconds
+[2025-02-22 09:48:48,467] {processor.py:153} INFO - Started process (PID=12857) to work on /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:48:48,470] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/utils.py for tasks to queue
+[2025-02-22 09:48:48,470] {logging_mixin.py:115} INFO - [2025-02-22 09:48:48,470] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:48:48,737] {logging_mixin.py:115} INFO - [2025-02-22 09:48:48,737] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:48:48,737] {logging_mixin.py:115} INFO - [2025-02-22 09:48:48,737] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:48:48,864] {logging_mixin.py:115} INFO - [2025-02-22 09:48:48,863] {dagbag.py:321} ERROR - Failed to import: /home/Assignment/airflow/dags/utils.py
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Assignment/airflow/dags/utils.py", line 17, in <module>
+    from mapping.significant_categorical_level import list_platform, list_medium, list_source
+ModuleNotFoundError: No module named 'mapping.significant_categorical_level'
+[2025-02-22 09:48:48,864] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:48:48,884] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/utils.py took 0.420 seconds
+[2025-02-22 09:49:32,206] {processor.py:153} INFO - Started process (PID=12986) to work on /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:49:32,208] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/utils.py for tasks to queue
+[2025-02-22 09:49:32,209] {logging_mixin.py:115} INFO - [2025-02-22 09:49:32,208] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:49:32,471] {logging_mixin.py:115} INFO - [2025-02-22 09:49:32,471] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:49:32,471] {logging_mixin.py:115} INFO - [2025-02-22 09:49:32,471] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:49:32,596] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:49:32,614] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/utils.py took 0.411 seconds
+[2025-02-22 09:50:06,747] {processor.py:153} INFO - Started process (PID=13119) to work on /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:50:06,749] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/utils.py for tasks to queue
+[2025-02-22 09:50:06,749] {logging_mixin.py:115} INFO - [2025-02-22 09:50:06,749] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:50:07,032] {logging_mixin.py:115} INFO - [2025-02-22 09:50:07,032] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:50:07,032] {logging_mixin.py:115} INFO - [2025-02-22 09:50:07,032] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:50:07,163] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:50:07,168] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/utils.py took 0.425 seconds
+[2025-02-22 09:50:41,582] {processor.py:153} INFO - Started process (PID=13245) to work on /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:50:41,584] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/utils.py for tasks to queue
+[2025-02-22 09:50:41,585] {logging_mixin.py:115} INFO - [2025-02-22 09:50:41,585] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:50:41,867] {logging_mixin.py:115} INFO - [2025-02-22 09:50:41,867] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:50:41,867] {logging_mixin.py:115} INFO - [2025-02-22 09:50:41,867] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:50:41,992] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:50:41,997] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/utils.py took 0.418 seconds
+[2025-02-22 09:51:25,595] {processor.py:153} INFO - Started process (PID=13381) to work on /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:51:25,606] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/utils.py for tasks to queue
+[2025-02-22 09:51:25,607] {logging_mixin.py:115} INFO - [2025-02-22 09:51:25,607] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:51:25,880] {logging_mixin.py:115} INFO - [2025-02-22 09:51:25,880] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:51:25,880] {logging_mixin.py:115} INFO - [2025-02-22 09:51:25,880] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:51:26,003] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:51:26,008] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/utils.py took 0.417 seconds
+[2025-02-22 09:52:07,684] {processor.py:153} INFO - Started process (PID=13531) to work on /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:52:07,685] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/utils.py for tasks to queue
+[2025-02-22 09:52:07,686] {logging_mixin.py:115} INFO - [2025-02-22 09:52:07,686] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:52:07,890] {logging_mixin.py:115} INFO - [2025-02-22 09:52:07,890] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:52:07,890] {logging_mixin.py:115} INFO - [2025-02-22 09:52:07,890] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:52:08,021] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:52:08,028] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/utils.py took 0.348 seconds
+[2025-02-22 09:52:48,422] {processor.py:153} INFO - Started process (PID=13666) to work on /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:52:48,424] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/utils.py for tasks to queue
+[2025-02-22 09:52:48,425] {logging_mixin.py:115} INFO - [2025-02-22 09:52:48,425] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:52:48,595] {logging_mixin.py:115} INFO - [2025-02-22 09:52:48,595] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:52:48,595] {logging_mixin.py:115} INFO - [2025-02-22 09:52:48,595] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:52:48,726] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:52:48,733] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/utils.py took 0.314 seconds
+[2025-02-22 09:53:22,598] {processor.py:153} INFO - Started process (PID=13782) to work on /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:53:22,600] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/utils.py for tasks to queue
+[2025-02-22 09:53:22,601] {logging_mixin.py:115} INFO - [2025-02-22 09:53:22,601] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:53:22,777] {logging_mixin.py:115} INFO - [2025-02-22 09:53:22,777] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:53:22,777] {logging_mixin.py:115} INFO - [2025-02-22 09:53:22,777] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:53:22,906] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:53:22,913] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/utils.py took 0.318 seconds
+[2025-02-22 09:53:54,586] {processor.py:153} INFO - Started process (PID=13900) to work on /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:53:54,588] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/utils.py for tasks to queue
+[2025-02-22 09:53:54,589] {logging_mixin.py:115} INFO - [2025-02-22 09:53:54,589] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:53:54,775] {logging_mixin.py:115} INFO - [2025-02-22 09:53:54,774] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:53:54,775] {logging_mixin.py:115} INFO - [2025-02-22 09:53:54,775] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:53:54,905] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:53:54,912] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/utils.py took 0.329 seconds
+[2025-02-22 09:54:29,364] {processor.py:153} INFO - Started process (PID=14006) to work on /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:54:29,366] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/utils.py for tasks to queue
+[2025-02-22 09:54:29,367] {logging_mixin.py:115} INFO - [2025-02-22 09:54:29,367] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:54:29,540] {logging_mixin.py:115} INFO - [2025-02-22 09:54:29,540] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:54:29,540] {logging_mixin.py:115} INFO - [2025-02-22 09:54:29,540] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:54:29,670] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:54:29,677] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/utils.py took 0.316 seconds
+[2025-02-22 09:55:07,187] {processor.py:153} INFO - Started process (PID=14132) to work on /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:55:07,188] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/utils.py for tasks to queue
+[2025-02-22 09:55:07,189] {logging_mixin.py:115} INFO - [2025-02-22 09:55:07,189] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:55:07,388] {logging_mixin.py:115} INFO - [2025-02-22 09:55:07,388] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:55:07,388] {logging_mixin.py:115} INFO - [2025-02-22 09:55:07,388] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:55:07,521] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:55:07,528] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/utils.py took 0.345 seconds
+[2025-02-22 09:55:49,194] {processor.py:153} INFO - Started process (PID=14283) to work on /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:55:49,196] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/utils.py for tasks to queue
+[2025-02-22 09:55:49,197] {logging_mixin.py:115} INFO - [2025-02-22 09:55:49,196] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:55:49,380] {logging_mixin.py:115} INFO - [2025-02-22 09:55:49,380] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:55:49,380] {logging_mixin.py:115} INFO - [2025-02-22 09:55:49,380] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:55:49,508] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:55:49,515] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/utils.py took 0.324 seconds
+[2025-02-22 09:56:25,659] {processor.py:153} INFO - Started process (PID=14400) to work on /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:56:25,689] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/utils.py for tasks to queue
+[2025-02-22 09:56:25,690] {logging_mixin.py:115} INFO - [2025-02-22 09:56:25,690] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:56:25,863] {logging_mixin.py:115} INFO - [2025-02-22 09:56:25,863] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:56:25,863] {logging_mixin.py:115} INFO - [2025-02-22 09:56:25,863] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:56:25,991] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:56:25,997] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/utils.py took 0.342 seconds
+[2025-02-22 09:56:57,943] {processor.py:153} INFO - Started process (PID=14511) to work on /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:56:57,945] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/utils.py for tasks to queue
+[2025-02-22 09:56:57,946] {logging_mixin.py:115} INFO - [2025-02-22 09:56:57,946] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:56:58,121] {logging_mixin.py:115} INFO - [2025-02-22 09:56:58,120] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:56:58,121] {logging_mixin.py:115} INFO - [2025-02-22 09:56:58,121] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:56:58,248] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:56:58,254] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/utils.py took 0.314 seconds
+[2025-02-22 09:57:32,122] {processor.py:153} INFO - Started process (PID=14624) to work on /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:57:32,124] {processor.py:641} INFO - Processing file /home/Assignment/airflow/dags/utils.py for tasks to queue
+[2025-02-22 09:57:32,124] {logging_mixin.py:115} INFO - [2025-02-22 09:57:32,124] {dagbag.py:508} INFO - Filling up the DagBag from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:57:32,299] {logging_mixin.py:115} INFO - [2025-02-22 09:57:32,299] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-02-22 09:57:32,299] {logging_mixin.py:115} INFO - [2025-02-22 09:57:32,299] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2025-02-22 09:57:32,424] {processor.py:653} WARNING - No viable dags retrieved from /home/Assignment/airflow/dags/utils.py
+[2025-02-22 09:57:32,430] {processor.py:161} INFO - Processing /home/Assignment/airflow/dags/utils.py took 0.312 seconds
