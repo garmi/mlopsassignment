@@ -1,0 +1,25 @@
+[2025-02-22 11:41:17,327] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: lead_scoring_data_pipeline.map_city_tier scheduled__2024-12-01T00:00:00+00:00 [queued]>
+[2025-02-22 11:41:17,331] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: lead_scoring_data_pipeline.map_city_tier scheduled__2024-12-01T00:00:00+00:00 [queued]>
+[2025-02-22 11:41:17,331] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-22 11:41:17,331] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2025-02-22 11:41:17,331] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-22 11:41:17,404] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): map_city_tier> on 2024-12-01 00:00:00+00:00
+[2025-02-22 11:41:17,409] {standard_task_runner.py:52} INFO - Started process 73750 to run task
+[2025-02-22 11:41:17,412] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'lead_scoring_data_pipeline', 'map_city_tier', 'scheduled__2024-12-01T00:00:00+00:00', '--job-id', '1165', '--raw', '--subdir', 'DAGS_FOLDER/lead_scoring_data_pipeline.py', '--cfg-path', '/tmp/tmpnmjroq30', '--error-file', '/tmp/tmp9ojvyqg8']
+[2025-02-22 11:41:17,413] {standard_task_runner.py:80} INFO - Job 1165: Subtask map_city_tier
+[2025-02-22 11:41:17,487] {task_command.py:371} INFO - Running <TaskInstance: lead_scoring_data_pipeline.map_city_tier scheduled__2024-12-01T00:00:00+00:00 [running]> on host 3766485c0f6d
+[2025-02-22 11:41:17,603] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=lead_scoring_data_pipeline
+AIRFLOW_CTX_TASK_ID=map_city_tier
+AIRFLOW_CTX_EXECUTION_DATE=2024-12-01T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-12-01T00:00:00+00:00
+[2025-02-22 11:41:17,603] {logging_mixin.py:115} INFO - Using Database: /workspace/Assignment/01_data_pipeline/scripts/utils_output.db
+[2025-02-22 11:41:17,604] {logging_mixin.py:115} INFO - Error in mapping city tiers: unable to open database file
+[2025-02-22 11:41:17,604] {python.py:173} INFO - Done. Returned value was: None
+[2025-02-22 11:41:17,608] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=lead_scoring_data_pipeline, task_id=map_city_tier, execution_date=20241201T000000, start_date=20250222T114117, end_date=20250222T114117
+[2025-02-22 11:41:17,704] {local_task_job.py:156} INFO - Task exited with return code 0
+[2025-02-22 11:41:17,798] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

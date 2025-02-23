@@ -1,0 +1,25 @@
+[2025-02-22 11:04:29,037] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: lead_scoring_data_pipeline.build_dbs scheduled__2024-03-12T00:00:00+00:00 [queued]>
+[2025-02-22 11:04:29,042] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: lead_scoring_data_pipeline.build_dbs scheduled__2024-03-12T00:00:00+00:00 [queued]>
+[2025-02-22 11:04:29,042] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-22 11:04:29,042] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2025-02-22 11:04:29,042] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-22 11:04:29,067] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): build_dbs> on 2024-03-12 00:00:00+00:00
+[2025-02-22 11:04:29,071] {standard_task_runner.py:52} INFO - Started process 50757 to run task
+[2025-02-22 11:04:29,073] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'lead_scoring_data_pipeline', 'build_dbs', 'scheduled__2024-03-12T00:00:00+00:00', '--job-id', '99', '--raw', '--subdir', 'DAGS_FOLDER/lead_scoring_data_pipeline.py', '--cfg-path', '/tmp/tmpsszu0n6z', '--error-file', '/tmp/tmpc_pv3k3w']
+[2025-02-22 11:04:29,074] {standard_task_runner.py:80} INFO - Job 99: Subtask build_dbs
+[2025-02-22 11:04:29,221] {task_command.py:371} INFO - Running <TaskInstance: lead_scoring_data_pipeline.build_dbs scheduled__2024-03-12T00:00:00+00:00 [running]> on host 3766485c0f6d
+[2025-02-22 11:04:29,294] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=lead_scoring_data_pipeline
+AIRFLOW_CTX_TASK_ID=build_dbs
+AIRFLOW_CTX_EXECUTION_DATE=2024-03-12T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-03-12T00:00:00+00:00
+[2025-02-22 11:04:29,295] {logging_mixin.py:115} INFO - Initializing Database at: /workspace/Assignment/01_data_pipeline/scripts/utils_output.db
+[2025-02-22 11:04:29,295] {logging_mixin.py:115} INFO - Error in database initialization: unable to open database file
+[2025-02-22 11:04:29,295] {python.py:173} INFO - Done. Returned value was: None
+[2025-02-22 11:04:29,302] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=lead_scoring_data_pipeline, task_id=build_dbs, execution_date=20240312T000000, start_date=20250222T110429, end_date=20250222T110429
+[2025-02-22 11:04:29,366] {local_task_job.py:156} INFO - Task exited with return code 0
+[2025-02-22 11:04:29,439] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

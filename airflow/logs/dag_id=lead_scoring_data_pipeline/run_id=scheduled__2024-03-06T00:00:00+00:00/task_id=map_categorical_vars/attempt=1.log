@@ -1,0 +1,25 @@
+[2025-02-22 11:03:52,806] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: lead_scoring_data_pipeline.map_categorical_vars scheduled__2024-03-06T00:00:00+00:00 [queued]>
+[2025-02-22 11:03:52,810] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: lead_scoring_data_pipeline.map_categorical_vars scheduled__2024-03-06T00:00:00+00:00 [queued]>
+[2025-02-22 11:03:52,811] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-22 11:03:52,811] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2025-02-22 11:03:52,811] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-22 11:03:52,831] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): map_categorical_vars> on 2024-03-06 00:00:00+00:00
+[2025-02-22 11:03:52,836] {standard_task_runner.py:52} INFO - Started process 50374 to run task
+[2025-02-22 11:03:52,838] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'lead_scoring_data_pipeline', 'map_categorical_vars', 'scheduled__2024-03-06T00:00:00+00:00', '--job-id', '82', '--raw', '--subdir', 'DAGS_FOLDER/lead_scoring_data_pipeline.py', '--cfg-path', '/tmp/tmpdsszb95y', '--error-file', '/tmp/tmpmrveq8k2']
+[2025-02-22 11:03:52,839] {standard_task_runner.py:80} INFO - Job 82: Subtask map_categorical_vars
+[2025-02-22 11:03:52,909] {task_command.py:371} INFO - Running <TaskInstance: lead_scoring_data_pipeline.map_categorical_vars scheduled__2024-03-06T00:00:00+00:00 [running]> on host 3766485c0f6d
+[2025-02-22 11:03:52,999] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=lead_scoring_data_pipeline
+AIRFLOW_CTX_TASK_ID=map_categorical_vars
+AIRFLOW_CTX_EXECUTION_DATE=2024-03-06T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-03-06T00:00:00+00:00
+[2025-02-22 11:03:53,000] {logging_mixin.py:115} INFO - Using Database: /workspace/Assignment/01_data_pipeline/scripts/utils_output.db
+[2025-02-22 11:03:53,000] {logging_mixin.py:115} INFO - Error in mapping categorical variables: unable to open database file
+[2025-02-22 11:03:53,000] {python.py:173} INFO - Done. Returned value was: None
+[2025-02-22 11:03:53,004] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=lead_scoring_data_pipeline, task_id=map_categorical_vars, execution_date=20240306T000000, start_date=20250222T110352, end_date=20250222T110353
+[2025-02-22 11:03:53,050] {local_task_job.py:156} INFO - Task exited with return code 0
+[2025-02-22 11:03:53,083] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

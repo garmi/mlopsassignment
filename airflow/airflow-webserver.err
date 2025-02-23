@@ -14,7 +14,7 @@ Traceback (most recent call last):
     with open_binary("%s/%s/stat" % (self._procfs_path, self.pid)) as f:
   File "/opt/conda/lib/python3.8/site-packages/psutil/_common.py", line 711, in open_binary
     return open(fname, "rb", **kwargs)
-FileNotFoundError: [Errno 2] No such file or directory: '/proc/14271/stat'
+FileNotFoundError: [Errno 2] No such file or directory: '/proc/47180/stat'
 
 During handling of the above exception, another exception occurred:
 
@@ -29,7 +29,7 @@ Traceback (most recent call last):
     ctime = float(self._parse_stat_file()['create_time'])
   File "/opt/conda/lib/python3.8/site-packages/psutil/_pslinux.py", line 1668, in wrapper
     raise NoSuchProcess(self.pid, self._name)
-psutil.NoSuchProcess: process no longer exists (pid=14271)
+psutil.NoSuchProcess: process no longer exists (pid=47180)
 
 During handling of the above exception, another exception occurred:
 
@@ -58,4 +58,4 @@ Traceback (most recent call last):
     self._init(pid)
   File "/opt/conda/lib/python3.8/site-packages/psutil/__init__.py", line 373, in _init
     raise NoSuchProcess(pid, msg='process PID not found')
-psutil.NoSuchProcess: process PID not found (pid=14271)
+psutil.NoSuchProcess: process PID not found (pid=47180)

@@ -1,0 +1,25 @@
+[2025-02-22 11:18:49,507] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: lead_scoring_data_pipeline.load_data_into_db scheduled__2024-06-21T00:00:00+00:00 [queued]>
+[2025-02-22 11:18:49,512] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: lead_scoring_data_pipeline.load_data_into_db scheduled__2024-06-21T00:00:00+00:00 [queued]>
+[2025-02-22 11:18:49,512] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-22 11:18:49,512] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2025-02-22 11:18:49,512] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-22 11:18:49,534] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): load_data_into_db> on 2024-06-21 00:00:00+00:00
+[2025-02-22 11:18:49,538] {standard_task_runner.py:52} INFO - Started process 59696 to run task
+[2025-02-22 11:18:49,540] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'lead_scoring_data_pipeline', 'load_data_into_db', 'scheduled__2024-06-21T00:00:00+00:00', '--job-id', '508', '--raw', '--subdir', 'DAGS_FOLDER/lead_scoring_data_pipeline.py', '--cfg-path', '/tmp/tmpxo23_026', '--error-file', '/tmp/tmph0x5kz89']
+[2025-02-22 11:18:49,541] {standard_task_runner.py:80} INFO - Job 508: Subtask load_data_into_db
+[2025-02-22 11:18:49,584] {task_command.py:371} INFO - Running <TaskInstance: lead_scoring_data_pipeline.load_data_into_db scheduled__2024-06-21T00:00:00+00:00 [running]> on host 3766485c0f6d
+[2025-02-22 11:18:49,653] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=lead_scoring_data_pipeline
+AIRFLOW_CTX_TASK_ID=load_data_into_db
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-21T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-21T00:00:00+00:00
+[2025-02-22 11:18:49,654] {logging_mixin.py:115} INFO - Using Database: /workspace/Assignment/01_data_pipeline/scripts/utils_output.db
+[2025-02-22 11:18:49,654] {logging_mixin.py:115} INFO - Error: /workspace/Assignment/01_data_pipeline/scripts/data/leadscoring.csv not found!
+[2025-02-22 11:18:49,654] {python.py:173} INFO - Done. Returned value was: None
+[2025-02-22 11:18:49,658] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=lead_scoring_data_pipeline, task_id=load_data_into_db, execution_date=20240621T000000, start_date=20250222T111849, end_date=20250222T111849
+[2025-02-22 11:18:49,712] {local_task_job.py:156} INFO - Task exited with return code 0
+[2025-02-22 11:18:49,773] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
